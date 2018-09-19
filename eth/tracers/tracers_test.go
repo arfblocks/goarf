@@ -1,18 +1,18 @@
-// Copyright 2017 The go-ethereum Authors
-// This file is part of the go-ethereum library.
+// Copyright 2017 The goArf Authors
+// This file is part of the goArf library.
 //
-// The go-ethereum library is free software: you can redistribute it and/or modify
+// The goArf library is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// The go-ethereum library is distributed in the hope that it will be useful,
+// The goArf library is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
+// along with the goArf library. If not, see <http://www.gnu.org/licenses/>.
 
 package tracers
 
@@ -25,15 +25,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/tayfunakcay/goArf/common"
+	"github.com/tayfunakcay/goArf/common/hexutil"
+	"github.com/tayfunakcay/goArf/common/math"
+	"github.com/tayfunakcay/goArf/core"
+	"github.com/tayfunakcay/goArf/core/types"
+	"github.com/tayfunakcay/goArf/core/vm"
+	"github.com/tayfunakcay/goArf/ethdb"
+	"github.com/tayfunakcay/goArf/rlp"
+	"github.com/tayfunakcay/goArf/tests"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

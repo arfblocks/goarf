@@ -2,7 +2,7 @@
 # with Go source code. If you know what GOPATH is then you probably
 # don't need to bother with make.
 
-.PHONY: geth android ios geth-cross swarm evm all test clean
+.PHONY: goArf android ios geth-cross swarm evm all test clean
 .PHONY: geth-linux geth-linux-386 geth-linux-amd64 geth-linux-mips64 geth-linux-mips64le
 .PHONY: geth-linux-arm geth-linux-arm-5 geth-linux-arm-6 geth-linux-arm-7 geth-linux-arm64
 .PHONY: geth-darwin geth-darwin-386 geth-darwin-amd64
@@ -11,10 +11,10 @@
 GOBIN = $(shell pwd)/build/bin
 GO ?= latest
 
-geth:
-	build/env.sh go run build/ci.go install ./cmd/geth
+goArf:
+	build/env.sh go run build/ci.go install ./cmd/goArf
 	@echo "Done building."
-	@echo "Run \"$(GOBIN)/geth\" to launch geth."
+	@echo "Run \"$(GOBIN)/goArf\" to launch goArf."
 
 swarm:
 	build/env.sh go run build/ci.go install ./cmd/swarm
@@ -68,10 +68,14 @@ geth-linux-386:
 	@echo "Linux 386 cross compilation done:"
 	@ls -ld $(GOBIN)/geth-linux-* | grep 386
 
-geth-linux-amd64:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/amd64 -v ./cmd/geth
+goArf-linux-amd64:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=linux/amd64 -v ./cmd/goArf
 	@echo "Linux amd64 cross compilation done:"
-	@ls -ld $(GOBIN)/geth-linux-* | grep amd64
+	@ls -ld $(GOBIN)/goArf-linux-* | grep amd64
+	mkdir -p ${linuxDir}
+	cp ./build/bin/goArf-linux-* ${linuxDir}/goArf
+	tar zcf ${linuxDir}.tar.gz ${linuxDir}/goArf
+
 
 geth-linux-arm: geth-linux-arm-5 geth-linux-arm-6 geth-linux-arm-7 geth-linux-arm64
 	@echo "Linux ARM cross compilation done:"
@@ -126,10 +130,13 @@ geth-darwin-386:
 	@echo "Darwin 386 cross compilation done:"
 	@ls -ld $(GOBIN)/geth-darwin-* | grep 386
 
-geth-darwin-amd64:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=darwin/amd64 -v ./cmd/geth
+goArf-darwin-amd64:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=darwin/amd64 -v ./cmd/goArf
 	@echo "Darwin amd64 cross compilation done:"
-	@ls -ld $(GOBIN)/geth-darwin-* | grep amd64
+	@ls -ld $(GOBIN)/goArf-darwin-* | grep amd64
+	mkdir -p ${darwinDir}
+	cp ./build/bin/goArf-darwin-* ${darwinDir}/goArf
+	tar zcf ${darwinDir}.tar.gz ${darwinDir}/goArf
 
 geth-windows: geth-windows-386 geth-windows-amd64
 	@echo "Windows cross compilation done:"
@@ -140,7 +147,12 @@ geth-windows-386:
 	@echo "Windows 386 cross compilation done:"
 	@ls -ld $(GOBIN)/geth-windows-* | grep 386
 
-geth-windows-amd64:
-	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=windows/amd64 -v ./cmd/geth
+goArf-windows-amd64:
+	build/env.sh go run build/ci.go xgo -- --go=$(GO) --targets=windows/amd64 -v ./cmd/goArf
 	@echo "Windows amd64 cross compilation done:"
-	@ls -ld $(GOBIN)/geth-windows-* | grep amd64
+	@ls -ld $(GOBIN)/goArf-windows-* | grep amd64
+	mkdir -p ${windowsDir}
+	cp ./build/bin/goArf-windows-* ${windowsDir}/goArf.exe
+	zip ${windowsDir}.zip ${windowsDir}/goArf.exe
+
+release: clean goArf-linux-amd64 goArf-windows-amd64 goArf-darwin-amd64

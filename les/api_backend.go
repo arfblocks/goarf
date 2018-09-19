@@ -1,18 +1,18 @@
-// Copyright 2016 The go-ethereum Authors
-// This file is part of the go-ethereum library.
+// Copyright 2016 The goArf Authors
+// This file is part of the goArf library.
 //
-// The go-ethereum library is free software: you can redistribute it and/or modify
+// The goArf library is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// The go-ethereum library is distributed in the hope that it will be useful,
+// The goArf library is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
+// along with the goArf library. If not, see <http://www.gnu.org/licenses/>.
 
 package les
 
@@ -20,21 +20,21 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/gasprice"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tayfunakcay/goArf/accounts"
+	"github.com/tayfunakcay/goArf/common"
+	"github.com/tayfunakcay/goArf/common/math"
+	"github.com/tayfunakcay/goArf/core"
+	"github.com/tayfunakcay/goArf/core/bloombits"
+	"github.com/tayfunakcay/goArf/core/state"
+	"github.com/tayfunakcay/goArf/core/types"
+	"github.com/tayfunakcay/goArf/core/vm"
+	"github.com/tayfunakcay/goArf/eth/downloader"
+	"github.com/tayfunakcay/goArf/eth/gasprice"
+	"github.com/tayfunakcay/goArf/ethdb"
+	"github.com/tayfunakcay/goArf/event"
+	"github.com/tayfunakcay/goArf/light"
+	"github.com/tayfunakcay/goArf/params"
+	"github.com/tayfunakcay/goArf/rpc"
 )
 
 type LesApiBackend struct {
