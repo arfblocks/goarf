@@ -8,7 +8,7 @@ import (
 	"github.com/tayfunakcay/goArf/common"
 	"github.com/tayfunakcay/goArf/common/hexutil"
 	"github.com/tayfunakcay/goArf/consensus/ethash"
-	"github.com/tayfunakcay/goArf/consensus/istanbul"
+	"github.com/tayfunakcay/goArf/consensus/arfist"
 	"github.com/tayfunakcay/goArf/core"
 	"github.com/tayfunakcay/goArf/eth/downloader"
 	"github.com/tayfunakcay/goArf/eth/gasprice"
@@ -35,7 +35,7 @@ func (c Config) MarshalTOML() (interface{}, error) {
 		GPO                     gasprice.Config
 		EnablePreimageRecording bool
 		DocRoot                 string `toml:"-"`
-		Istanbul                istanbul.Config
+		ArfIst                arfist.Config
 	}
 	var enc Config
 	enc.Genesis = c.Genesis
@@ -54,7 +54,7 @@ func (c Config) MarshalTOML() (interface{}, error) {
 	enc.TxPool = c.TxPool
 	enc.GPO = c.GPO
 	enc.EnablePreimageRecording = c.EnablePreimageRecording
-	enc.Istanbul = c.Istanbul
+	enc.ArfIst = c.ArfIst
 	enc.DocRoot = c.DocRoot
 	return &enc, nil
 }
@@ -78,7 +78,7 @@ func (c *Config) UnmarshalTOML(unmarshal func(interface{}) error) error {
 		GPO                     *gasprice.Config
 		EnablePreimageRecording *bool
 		DocRoot                 *string `toml:"-"`
-		Istanbul                *istanbul.Config
+		ArfIst                *arfist.Config
 	}
 	var dec Config
 	if err := unmarshal(&dec); err != nil {
@@ -132,8 +132,8 @@ func (c *Config) UnmarshalTOML(unmarshal func(interface{}) error) error {
 	if dec.EnablePreimageRecording != nil {
 		c.EnablePreimageRecording = *dec.EnablePreimageRecording
 	}
-	if dec.Istanbul != nil {
-		c.Istanbul = *dec.Istanbul
+	if dec.ArfIst != nil {
+		c.ArfIst = *dec.ArfIst
 	}
 	if dec.DocRoot != nil {
 		c.DocRoot = *dec.DocRoot

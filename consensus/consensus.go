@@ -121,8 +121,8 @@ type PoW interface {
 	Hashrate() float64
 }
 
-// Istanbul is a consensus engine to avoid byzantine failure
-type Istanbul interface {
+// ArfIst is a consensus engine to avoid byzantine failure
+type ArfIst interface {
 	Engine
 
 	// Start starts the engine

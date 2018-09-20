@@ -27,7 +27,7 @@ import (
 	"github.com/tayfunakcay/goArf/common"
 	"github.com/tayfunakcay/goArf/common/hexutil"
 	"github.com/tayfunakcay/goArf/consensus/ethash"
-	"github.com/tayfunakcay/goArf/consensus/istanbul"
+	"github.com/tayfunakcay/goArf/consensus/arfist"
 	"github.com/tayfunakcay/goArf/core"
 	"github.com/tayfunakcay/goArf/eth/downloader"
 	"github.com/tayfunakcay/goArf/eth/gasprice"
@@ -57,7 +57,7 @@ var DefaultConfig = Config{
 		Percentile: 60,
 	},
 
-	Istanbul: *istanbul.DefaultConfig,
+	ArfIst: *arfist.DefaultConfig,
 }
 
 func init() {
@@ -115,8 +115,8 @@ type Config struct {
 	// Enables tracking of SHA3 preimages in the VM
 	EnablePreimageRecording bool
 
-	// Istanbul options
-	Istanbul istanbul.Config
+	// ArfIst options
+	ArfIst arfist.Config
 
 	// Miscellaneous options
 	DocRoot string `toml:"-"`

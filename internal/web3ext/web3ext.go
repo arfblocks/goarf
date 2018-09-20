@@ -30,7 +30,7 @@ var Modules = map[string]string{
 	"shh":        Shh_JS,
 	"swarmfs":    SWARMFS_JS,
 	"txpool":     TxPool_JS,
-	"istanbul":   Istanbul_JS,
+	"arfist":   ArfIst_JS,
 }
 
 const Chequebook_JS = `
@@ -633,41 +633,41 @@ web3._extend({
 });
 `
 
-const Istanbul_JS = `
+const ArfIst_JS = `
 web3._extend({
-	property: 'istanbul',
+	property: 'arfist',
 	methods:
 	[
 		new web3._extend.Method({
 			name: 'getSnapshot',
-			call: 'istanbul_getSnapshot',
+			call: 'arfist_getSnapshot',
 			params: 1,
 			inputFormatter: [null]
 		}),
 		new web3._extend.Method({
 			name: 'getSnapshotAtHash',
-			call: 'istanbul_getSnapshotAtHash',
+			call: 'arfist_getSnapshotAtHash',
 			params: 1
 		}),
 		new web3._extend.Method({
 			name: 'getValidators',
-			call: 'istanbul_getValidators',
+			call: 'arfist_getValidators',
 			params: 1,
 			inputFormatter: [null]
 		}),
 		new web3._extend.Method({
 			name: 'getValidatorsAtHash',
-			call: 'istanbul_getValidatorsAtHash',
+			call: 'arfist_getValidatorsAtHash',
 			params: 1
 		}),
 		new web3._extend.Method({
 			name: 'propose',
-			call: 'istanbul_propose',
+			call: 'arfist_propose',
 			params: 2
 		}),
 		new web3._extend.Method({
 			name: 'discard',
-			call: 'istanbul_discard',
+			call: 'arfist_discard',
 			params: 1
 		})
 	],
@@ -675,7 +675,7 @@ web3._extend({
 	[
 		new web3._extend.Property({
 			name: 'candidates',
-			getter: 'istanbul_candidates'
+			getter: 'arfist_candidates'
 		}),
 	]
 });

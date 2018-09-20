@@ -39,7 +39,7 @@ s := set.New()
 s := set.NewNonTS() // non thread-safe version
 
 // ... or with some initial values
-s := set.New("istanbul", "frankfurt", 30.123, "san francisco", 1234)
+s := set.New("arfist", "frankfurt", 30.123, "san francisco", 1234)
 s := set.NewNonTS("kenya", "ethiopia", "sumatra")
 
 ```
@@ -48,8 +48,8 @@ s := set.NewNonTS("kenya", "ethiopia", "sumatra")
 
 ```go
 // add items
-s.Add("istanbul")
-s.Add("istanbul") // nothing happens if you add duplicate item
+s.Add("arfist")
+s.Add("arfist") // nothing happens if you add duplicate item
 
 // add multiple items
 s.Add("ankara", "san francisco", 3.14)
@@ -88,10 +88,10 @@ fmt.Printf("set is %s", s.String())
 s.IsEmpty()
 
 // check for a single item exist
-s.Has("istanbul")
+s.Has("arfist")
 
 // ... or for multiple items. This will return true if all of the items exist.
-s.Has("istanbul", "san francisco", 3.14)
+s.Has("arfist", "san francisco", 3.14)
 
 // create two sets for the following checks...
 s := s.New("1", "2", "3", "4", "5")

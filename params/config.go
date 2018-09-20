@@ -90,7 +90,7 @@ var (
 		EIP158Block:    big.NewInt(3),
 		ByzantiumBlock: big.NewInt(math.MaxInt64), // Don't enable yet
 
-		Istanbul: &IstanbulConfig{
+		ArfIst: &ArfIstConfig{
 			Epoch:          30000,
 			ProposerPolicy: 0,
 		},
@@ -140,7 +140,7 @@ type ChainConfig struct {
 	// Various consensus engines
 	Ethash   *EthashConfig   `json:"ethash,omitempty"`
 	Clique   *CliqueConfig   `json:"clique,omitempty"`
-	Istanbul *IstanbulConfig `json:"istanbul,omitempty"`
+	ArfIst *ArfIstConfig `json:"arfist,omitempty"`
 }
 
 // EthashConfig is the consensus engine configs for proof-of-work based sealing.
@@ -162,15 +162,15 @@ func (c *CliqueConfig) String() string {
 	return "clique"
 }
 
-// IstanbulConfig is the consensus engine configs for Istanbul based sealing.
-type IstanbulConfig struct {
+// ArfIstConfig is the consensus engine configs for ArfIst based sealing.
+type ArfIstConfig struct {
 	Epoch          uint64 `json:"epoch"`  // Epoch length to reset votes and checkpoint
 	ProposerPolicy uint64 `json:"policy"` // The policy for proposer selection
 }
 
 // String implements the stringer interface, returning the consensus engine details.
-func (c *IstanbulConfig) String() string {
-	return "istanbul"
+func (c *ArfIstConfig) String() string {
+	return "arfist"
 }
 
 // String implements the fmt.Stringer interface.
@@ -181,8 +181,8 @@ func (c *ChainConfig) String() string {
 		engine = c.Ethash
 	case c.Clique != nil:
 		engine = c.Clique
-	case c.Istanbul != nil:
-		engine = c.Istanbul
+	case c.ArfIst != nil:
+		engine = c.ArfIst
 	default:
 		engine = "unknown"
 	}

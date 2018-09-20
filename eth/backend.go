@@ -31,8 +31,8 @@ import (
 	"github.com/tayfunakcay/goArf/consensus"
 	"github.com/tayfunakcay/goArf/consensus/clique"
 	"github.com/tayfunakcay/goArf/consensus/ethash"
-	"github.com/tayfunakcay/goArf/consensus/istanbul"
-	istanbulBackend "github.com/tayfunakcay/goArf/consensus/istanbul/backend"
+	"github.com/tayfunakcay/goArf/consensus/arfist"
+	arfistBackend "github.com/tayfunakcay/goArf/consensus/arfist/backend"
 	"github.com/tayfunakcay/goArf/core"
 	"github.com/tayfunakcay/goArf/core/bloombits"
 	"github.com/tayfunakcay/goArf/core/types"
@@ -138,8 +138,8 @@ func New(ctx *node.ServiceContext, config *Config) (*Ethereum, error) {
 		bloomIndexer:   NewBloomIndexer(chainDb, params.BloomBitsBlocks),
 	}
 
-	// force to set the istanbul etherbase to node key address
-	if chainConfig.Istanbul != nil {
+	// force to set the arfist etherbase to node key address
+	if chainConfig.ArfIst != nil {
 		eth.etherbase = crypto.PubkeyToAddress(ctx.NodeKey().PublicKey)
 	}
 
@@ -224,13 +224,13 @@ func CreateConsensusEngine(ctx *node.ServiceContext, config *Config, chainConfig
 	if chainConfig.Clique != nil {
 		return clique.New(chainConfig.Clique, db)
 	}
-	// If Istanbul is requested, set it up
-	if chainConfig.Istanbul != nil {
-		if chainConfig.Istanbul.Epoch != 0 {
-			config.Istanbul.Epoch = chainConfig.Istanbul.Epoch
+	// If ArfIst is requested, set it up
+	if chainConfig.ArfIst != nil {
+		if chainConfig.ArfIst.Epoch != 0 {
+			config.ArfIst.Epoch = chainConfig.ArfIst.Epoch
 		}
-		config.Istanbul.ProposerPolicy = istanbul.ProposerPolicy(chainConfig.Istanbul.ProposerPolicy)
-		return istanbulBackend.New(&config.Istanbul, ctx.NodeKey(), db)
+		config.ArfIst.ProposerPolicy = arfist.ProposerPolicy(chainConfig.ArfIst.ProposerPolicy)
+		return arfistBackend.New(&config.ArfIst, ctx.NodeKey(), db)
 	}
 
 	// Otherwise assume proof-of-work
@@ -346,8 +346,8 @@ func (s *Ethereum) Etherbase() (eb common.Address, err error) {
 // set in js console via admin interface or wrapper from cli flags
 func (self *Ethereum) SetEtherbase(etherbase common.Address) {
 	self.lock.Lock()
-	if _, ok := self.engine.(consensus.Istanbul); ok {
-		log.Error("Cannot set etherbase in Istanbul consensus")
+	if _, ok := self.engine.(consensus.ArfIst); ok {
+		log.Error("Cannot set etherbase in ArfIst consensus")
 		return
 	}
 	self.etherbase = etherbase

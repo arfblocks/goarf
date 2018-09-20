@@ -206,8 +206,8 @@ func (self *worker) start() {
 
 	atomic.StoreInt32(&self.mining, 1)
 
-	if istanbul, ok := self.engine.(consensus.Istanbul); ok {
-		istanbul.Start(self.chain, self.chain.CurrentBlock, self.chain.HasBadBlock)
+	if arfist, ok := self.engine.(consensus.ArfIst); ok {
+		arfist.Start(self.chain, self.chain.CurrentBlock, self.chain.HasBadBlock)
 	}
 
 	// spin up agents
@@ -227,8 +227,8 @@ func (self *worker) stop() {
 		}
 	}
 
-	if istanbul, ok := self.engine.(consensus.Istanbul); ok {
-		istanbul.Stop()
+	if arfist, ok := self.engine.(consensus.ArfIst); ok {
+		arfist.Stop()
 	}
 
 	atomic.StoreInt32(&self.mining, 0)

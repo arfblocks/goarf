@@ -100,12 +100,12 @@ type headerMarshaling struct {
 // Hash returns the block hash of the header, which is simply the keccak256 hash of its
 // RLP encoding.
 func (h *Header) Hash() common.Hash {
-	// If the mix digest is equivalent to the predefined Istanbul digest, use Istanbul
+	// If the mix digest is equivalent to the predefined ArfIst digest, use ArfIst
 	// specific hash calculation.
-	if h.MixDigest == IstanbulDigest {
+	if h.MixDigest == ArfIstDigest {
 		// Seal is reserved in extra-data. To prove block is signed by the proposer.
-		if istanbulHeader := IstanbulFilteredHeader(h, true); istanbulHeader != nil {
-			return rlpHash(istanbulHeader)
+		if arfistHeader := ArfIstFilteredHeader(h, true); arfistHeader != nil {
+			return rlpHash(arfistHeader)
 		}
 	}
 	return rlpHash(h)

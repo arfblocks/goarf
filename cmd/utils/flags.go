@@ -145,7 +145,7 @@ var (
 	}
 	OttomanFlag = cli.BoolFlag{
 		Name:  "ottoman",
-		Usage: "Ottoman network: pre-configured istanbul bft test network",
+		Usage: "Ottoman network: pre-configured arfist bft test network",
 	}
 	DeveloperPeriodFlag = cli.IntFlag{
 		Name:  "dev.period",
@@ -537,16 +537,16 @@ var (
 		Value: whisper.DefaultMinimumPoW,
 	}
 
-	// Istanbul settings
-	IstanbulRequestTimeoutFlag = cli.Uint64Flag{
-		Name:  "istanbul.requesttimeout",
-		Usage: "Timeout for each Istanbul round in milliseconds",
-		Value: eth.DefaultConfig.Istanbul.RequestTimeout,
+	// ArfIst settings
+	ArfIstRequestTimeoutFlag = cli.Uint64Flag{
+		Name:  "arfist.requesttimeout",
+		Usage: "Timeout for each ArfIst round in milliseconds",
+		Value: eth.DefaultConfig.ArfIst.RequestTimeout,
 	}
-	IstanbulBlockPeriodFlag = cli.Uint64Flag{
-		Name:  "istanbul.blockperiod",
+	ArfIstBlockPeriodFlag = cli.Uint64Flag{
+		Name:  "arfist.blockperiod",
 		Usage: "Default minimum difference between two consecutive block's timestamps in seconds",
-		Value: eth.DefaultConfig.Istanbul.BlockPeriod,
+		Value: eth.DefaultConfig.ArfIst.BlockPeriod,
 	}
 )
 
@@ -984,12 +984,12 @@ func setEthash(ctx *cli.Context, cfg *eth.Config) {
 	}
 }
 
-func setIstanbul(ctx *cli.Context, cfg *eth.Config) {
-	if ctx.GlobalIsSet(IstanbulRequestTimeoutFlag.Name) {
-		cfg.Istanbul.RequestTimeout = ctx.GlobalUint64(IstanbulRequestTimeoutFlag.Name)
+func setArfIst(ctx *cli.Context, cfg *eth.Config) {
+	if ctx.GlobalIsSet(ArfIstRequestTimeoutFlag.Name) {
+		cfg.ArfIst.RequestTimeout = ctx.GlobalUint64(ArfIstRequestTimeoutFlag.Name)
 	}
-	if ctx.GlobalIsSet(IstanbulBlockPeriodFlag.Name) {
-		cfg.Istanbul.BlockPeriod = ctx.GlobalUint64(IstanbulBlockPeriodFlag.Name)
+	if ctx.GlobalIsSet(ArfIstBlockPeriodFlag.Name) {
+		cfg.ArfIst.BlockPeriod = ctx.GlobalUint64(ArfIstBlockPeriodFlag.Name)
 	}
 }
 
@@ -1054,7 +1054,7 @@ func SetEthConfig(ctx *cli.Context, stack *node.Node, cfg *eth.Config) {
 	setGPO(ctx, &cfg.GPO)
 	setTxPool(ctx, &cfg.TxPool)
 	setEthash(ctx, cfg)
-	setIstanbul(ctx, cfg)
+	setArfIst(ctx, cfg)
 
 	switch {
 	case ctx.GlobalIsSet(SyncModeFlag.Name):
