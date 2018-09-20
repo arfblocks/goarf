@@ -1,3 +1,5 @@
+# <img src="logo.jpg" width="100" height="100"/>
+
 ## Go Ethereum
 
 Official golang implementation of the Ethereum protocol.
