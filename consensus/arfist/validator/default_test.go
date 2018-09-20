@@ -35,7 +35,6 @@ func TestValidatorSet(t *testing.T) {
 	testNewValidatorSet(t)
 	testNormalValSet(t)
 	testEmptyValSet(t)
-	testStickyProposer(t)
 	testAddAndRemoveValidator(t)
 }
 
@@ -174,35 +173,3 @@ func testAddAndRemoveValidator(t *testing.T) {
 	}
 }
 
-func testStickyProposer(t *testing.T) {
-	b1 := common.Hex2Bytes(testAddress)
-	b2 := common.Hex2Bytes(testAddress2)
-	addr1 := common.BytesToAddress(b1)
-	addr2 := common.BytesToAddress(b2)
-	val1 := New(addr1)
-	val2 := New(addr2)
-
-	valSet := newDefaultSet([]common.Address{addr1, addr2}, arfist.Sticky)
-
-	// test get proposer
-	if val := valSet.GetProposer(); !reflect.DeepEqual(val, val1) {
-		t.Errorf("proposer mismatch: have %v, want %v", val, val1)
-	}
-	// test calculate proposer
-	lastProposer := addr1
-	valSet.CalcProposer(lastProposer, uint64(0))
-	if val := valSet.GetProposer(); !reflect.DeepEqual(val, val1) {
-		t.Errorf("proposer mismatch: have %v, want %v", val, val1)
-	}
-
-	valSet.CalcProposer(lastProposer, uint64(1))
-	if val := valSet.GetProposer(); !reflect.DeepEqual(val, val2) {
-		t.Errorf("proposer mismatch: have %v, want %v", val, val2)
-	}
-	// test empty last proposer
-	lastProposer = common.Address{}
-	valSet.CalcProposer(lastProposer, uint64(3))
-	if val := valSet.GetProposer(); !reflect.DeepEqual(val, val2) {
-		t.Errorf("proposer mismatch: have %v, want %v", val, val2)
-	}
-}

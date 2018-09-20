@@ -64,10 +64,8 @@ func newDefaultSet(addrs []common.Address, policy arfist.ProposerPolicy) *defaul
 	if valSet.Size() > 0 {
 		valSet.proposer = valSet.GetByIndex(0)
 	}
+	// proposer will only change in every block and round change
 	valSet.selector = roundRobinProposer
-	if policy == arfist.Sticky {
-		valSet.selector = stickyProposer
-	}
 
 	return valSet
 }
@@ -138,20 +136,6 @@ func roundRobinProposer(valSet arfist.ValidatorSet, proposer common.Address, rou
 		seed = round
 	} else {
 		seed = calcSeed(valSet, proposer, round) + 1
-	}
-	pick := seed % uint64(valSet.Size())
-	return valSet.GetByIndex(pick)
-}
-
-func stickyProposer(valSet arfist.ValidatorSet, proposer common.Address, round uint64) arfist.Validator {
-	if valSet.Size() == 0 {
-		return nil
-	}
-	seed := uint64(0)
-	if emptyAddress(proposer) {
-		seed = round
-	} else {
-		seed = calcSeed(valSet, proposer, round)
 	}
 	pick := seed % uint64(valSet.Size())
 	return valSet.GetByIndex(pick)
