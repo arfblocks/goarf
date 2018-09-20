@@ -1,4 +1,4 @@
-// Copyright 2014 The goArf Authors
+// Copyright 2014 The go-ethereum Authors
 // This file is part of goArf.
 //
 // goArf is free software: you can redistribute it and/or modify

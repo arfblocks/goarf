@@ -1,4 +1,4 @@
-// Copyright 2014 The goArf Authors
+// Copyright 2014 The go-ethereum Authors
 // This file is part of goArf.
 //
 // goArf is free software: you can redistribute it and/or modify
@@ -152,7 +152,7 @@ func init() {
 	// Initialize the CLI app and start Geth
 	app.Action = geth
 	app.HideVersion = true // we have a command to print the version
-	app.Copyright = "Copyright 2013-2017 The goArf Authors"
+	app.Copyright = "Copyright 2013-2017 The go-ethereum Authors"
 	app.Commands = []cli.Command{
 		// See chaincmd.go:
 		initCommand,

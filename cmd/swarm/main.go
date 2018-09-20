@@ -1,4 +1,4 @@
-// Copyright 2016 The goArf Authors
+// Copyright 2016 The go-ethereum Authors
 // This file is part of goArf.
 //
 // goArf is free software: you can redistribute it and/or modify
@@ -177,7 +177,7 @@ var app = utils.NewApp(gitCommit, "Ethereum Swarm")
 func init() {
 	app.Action = bzzd
 	app.HideVersion = true // we have a command to print the version
-	app.Copyright = "Copyright 2013-2016 The goArf Authors"
+	app.Copyright = "Copyright 2013-2016 The go-ethereum Authors"
 	app.Commands = []cli.Command{
 		{
 			Action:    version,

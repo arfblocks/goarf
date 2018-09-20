@@ -1,4 +1,4 @@
-// Copyright 2017 The goArf Authors
+// Copyright 2017 The go-ethereum Authors
 // This file is part of goArf.
 //
 // goArf is free software: you can redistribute it and/or modify
@@ -421,7 +421,7 @@ try! node?.start();
 										<br/>
 										<p>Puppeth is distributed as part of the <a href="https://geth.ethereum.org/downloads/" target="about:blank">Geth &amp; Tools</a> bundles, but can also be installed separately via:<pre>go get github.com/tayfunakcay/goArf/cmd/puppeth</pre></p>
 										<br/>
-										<p><em>Copyright 2017. The goArf Authors.</em></p>
+										<p><em>Copyright 2017. The go-ethereum Authors.</em></p>
 									</div>
 									<div style="display: inline-block; vertical-align: bottom; width: 217px;">
 										<img src="puppeth.png" style="height: 256px; margin: 16px 16px 16px 16px"></img>
