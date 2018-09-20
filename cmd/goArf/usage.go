@@ -227,7 +227,7 @@ var AppHelpFlagGroups = []flagGroup{
 		Name: "MISC",
 	},
 	{
-		Name: "ISTANBUL",
+		Name: "ARFIST",
 		Flags: []cli.Flag{
 			utils.ArfIstRequestTimeoutFlag,
 			utils.ArfIstBlockPeriodFlag,
