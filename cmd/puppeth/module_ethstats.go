@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/tayfunakcay/goArf/log"
+	"github.com/arfblocks/goarf/log"
 )
 
 // ethstatsDockerfile is the Dockerfile required to build an ethstats backend

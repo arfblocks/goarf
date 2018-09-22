@@ -5,13 +5,13 @@ package eth
 import (
 	"math/big"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/common/hexutil"
-	"github.com/tayfunakcay/goArf/consensus/ethash"
-	"github.com/tayfunakcay/goArf/consensus/arfist"
-	"github.com/tayfunakcay/goArf/core"
-	"github.com/tayfunakcay/goArf/eth/downloader"
-	"github.com/tayfunakcay/goArf/eth/gasprice"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/common/hexutil"
+	"github.com/arfblocks/goarf/consensus/ethash"
+	"github.com/arfblocks/goarf/consensus/arfist"
+	"github.com/arfblocks/goarf/core"
+	"github.com/arfblocks/goarf/eth/downloader"
+	"github.com/arfblocks/goarf/eth/gasprice"
 )
 
 var _ = (*configMarshaling)(nil)

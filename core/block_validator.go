@@ -19,10 +19,10 @@ package core
 import (
 	"fmt"
 
-	"github.com/tayfunakcay/goArf/consensus"
-	"github.com/tayfunakcay/goArf/core/state"
-	"github.com/tayfunakcay/goArf/core/types"
-	"github.com/tayfunakcay/goArf/params"
+	"github.com/arfblocks/goarf/consensus"
+	"github.com/arfblocks/goarf/core/state"
+	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goarf/params"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

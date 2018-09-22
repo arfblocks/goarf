@@ -24,12 +24,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tayfunakcay/goArf/accounts/abi/bind"
-	"github.com/tayfunakcay/goArf/accounts/abi/bind/backends"
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/contracts/chequebook/contract"
-	"github.com/tayfunakcay/goArf/core"
-	"github.com/tayfunakcay/goArf/crypto"
+	"github.com/arfblocks/goarf/accounts/abi/bind"
+	"github.com/arfblocks/goarf/accounts/abi/bind/backends"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/contracts/chequebook/contract"
+	"github.com/arfblocks/goarf/core"
+	"github.com/arfblocks/goarf/crypto"
 )
 
 var (

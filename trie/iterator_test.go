@@ -22,8 +22,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/ethdb"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/ethdb"
 )
 
 func TestIterator(t *testing.T) {

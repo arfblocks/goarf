@@ -23,8 +23,8 @@ import (
 	"math/rand"
 	"reflect"
 
-	"github.com/tayfunakcay/goArf/common/hexutil"
-	"github.com/tayfunakcay/goArf/crypto/sha3"
+	"github.com/arfblocks/goarf/common/hexutil"
+	"github.com/arfblocks/goarf/crypto/sha3"
 )
 
 const (

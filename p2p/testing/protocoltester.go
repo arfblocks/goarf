@@ -32,14 +32,14 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/node"
-	"github.com/tayfunakcay/goArf/p2p"
-	"github.com/tayfunakcay/goArf/p2p/discover"
-	"github.com/tayfunakcay/goArf/p2p/simulations"
-	"github.com/tayfunakcay/goArf/p2p/simulations/adapters"
-	"github.com/tayfunakcay/goArf/rlp"
-	"github.com/tayfunakcay/goArf/rpc"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/node"
+	"github.com/arfblocks/goarf/p2p"
+	"github.com/arfblocks/goarf/p2p/discover"
+	"github.com/arfblocks/goarf/p2p/simulations"
+	"github.com/arfblocks/goarf/p2p/simulations/adapters"
+	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goarf/rpc"
 )
 
 // ProtocolTester is the tester environment used for unit testing protocol

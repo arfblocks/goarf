@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/tayfunakcay/goArf/accounts/keystore"
-	"github.com/tayfunakcay/goArf/log"
+	"github.com/arfblocks/goarf/accounts/keystore"
+	"github.com/arfblocks/goarf/log"
 )
 
 // deployFaucet queries the user for various input on deploying a faucet, after

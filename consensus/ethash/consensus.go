@@ -24,13 +24,13 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/common/math"
-	"github.com/tayfunakcay/goArf/consensus"
-	"github.com/tayfunakcay/goArf/consensus/misc"
-	"github.com/tayfunakcay/goArf/core/state"
-	"github.com/tayfunakcay/goArf/core/types"
-	"github.com/tayfunakcay/goArf/params"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/common/math"
+	"github.com/arfblocks/goarf/consensus"
+	"github.com/arfblocks/goarf/consensus/misc"
+	"github.com/arfblocks/goarf/core/state"
+	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goarf/params"
 	set "gopkg.in/fatih/set.v0"
 )
 
@@ -321,7 +321,7 @@ var (
 // the difficulty that a new block should have when created at time given the
 // parent block's time and difficulty. The calculation uses the Byzantium rules.
 func calcDifficultyByzantium(time uint64, parent *types.Header) *big.Int {
-	// https://github.com/tayfunakcay/EIPs/issues/100.
+	// https://github.com/arfblocks/EIPs/issues/100.
 	// algorithm:
 	// diff = (parent_diff +
 	//         (parent_diff / 2048 * max((2 if len(parent.uncles) else 1) - ((timestamp - parent.timestamp) // 9), -99))
@@ -356,7 +356,7 @@ func calcDifficultyByzantium(time uint64, parent *types.Header) *big.Int {
 		x.Set(params.MinimumDifficulty)
 	}
 	// calculate a fake block number for the ice-age delay:
-	//   https://github.com/tayfunakcay/EIPs/pull/669
+	//   https://github.com/arfblocks/EIPs/pull/669
 	//   fake_block_number = min(0, block.number - 3_000_000
 	fakeBlockNumber := new(big.Int)
 	if parent.Number.Cmp(big2999999) >= 0 {
@@ -380,7 +380,7 @@ func calcDifficultyByzantium(time uint64, parent *types.Header) *big.Int {
 // the difficulty that a new block should have when created at time given the
 // parent block's time and difficulty. The calculation uses the Homestead rules.
 func calcDifficultyHomestead(time uint64, parent *types.Header) *big.Int {
-	// https://github.com/tayfunakcay/EIPs/blob/master/EIPS/eip-2.md
+	// https://github.com/arfblocks/EIPs/blob/master/EIPS/eip-2.md
 	// algorithm:
 	// diff = (parent_diff +
 	//         (parent_diff / 2048 * max(1 - (block_timestamp - parent_timestamp) // 10, -99))

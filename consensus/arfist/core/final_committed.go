@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/tayfunakcay/goArf/common"
+import "github.com/arfblocks/goarf/common"
 
 func (c *core) handleFinalCommitted() error {
 	logger := c.logger.New("state", c.state)

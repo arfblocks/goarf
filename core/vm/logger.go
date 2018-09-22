@@ -23,10 +23,10 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/common/hexutil"
-	"github.com/tayfunakcay/goArf/common/math"
-	"github.com/tayfunakcay/goArf/core/types"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/common/hexutil"
+	"github.com/arfblocks/goarf/common/math"
+	"github.com/arfblocks/goarf/core/types"
 )
 
 type Storage map[common.Hash]common.Hash

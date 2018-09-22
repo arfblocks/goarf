@@ -29,7 +29,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tayfunakcay/goArf/params"
+	"github.com/arfblocks/goarf/params"
 )
 
 var (

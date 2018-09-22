@@ -35,11 +35,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/metrics"
-	"github.com/tayfunakcay/goArf/swarm/api"
-	"github.com/tayfunakcay/goArf/swarm/storage"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/metrics"
+	"github.com/arfblocks/goarf/swarm/api"
+	"github.com/arfblocks/goarf/swarm/storage"
 	"github.com/rs/cors"
 )
 

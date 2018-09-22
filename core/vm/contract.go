@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/tayfunakcay/goArf/common"
+	"github.com/arfblocks/goarf/common"
 )
 
 // ContractRef is a reference to the contract's backing object

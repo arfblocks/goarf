@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/rpc"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/rpc"
 )
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {

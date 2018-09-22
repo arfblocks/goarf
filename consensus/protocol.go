@@ -18,8 +18,8 @@
 package consensus
 
 import (
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/core/types"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/core/types"
 )
 
 // Constants to match up protocol versions and messages

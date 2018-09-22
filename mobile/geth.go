@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/tayfunakcay/goArf/core"
-	"github.com/tayfunakcay/goArf/eth"
-	"github.com/tayfunakcay/goArf/eth/downloader"
-	"github.com/tayfunakcay/goArf/ethclient"
-	"github.com/tayfunakcay/goArf/ethstats"
-	"github.com/tayfunakcay/goArf/les"
-	"github.com/tayfunakcay/goArf/node"
-	"github.com/tayfunakcay/goArf/p2p"
-	"github.com/tayfunakcay/goArf/p2p/nat"
-	"github.com/tayfunakcay/goArf/params"
-	whisper "github.com/tayfunakcay/goArf/whisper/whisperv5"
+	"github.com/arfblocks/goarf/core"
+	"github.com/arfblocks/goarf/eth"
+	"github.com/arfblocks/goarf/eth/downloader"
+	"github.com/arfblocks/goarf/ethclient"
+	"github.com/arfblocks/goarf/ethstats"
+	"github.com/arfblocks/goarf/les"
+	"github.com/arfblocks/goarf/node"
+	"github.com/arfblocks/goarf/p2p"
+	"github.com/arfblocks/goarf/p2p/nat"
+	"github.com/arfblocks/goarf/params"
+	whisper "github.com/arfblocks/goarf/whisper/whisperv5"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

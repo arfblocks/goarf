@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tayfunakcay/goArf/log"
+	"github.com/arfblocks/goarf/log"
 )
 
 var (

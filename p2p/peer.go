@@ -24,11 +24,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common/mclock"
-	"github.com/tayfunakcay/goArf/event"
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/p2p/discover"
-	"github.com/tayfunakcay/goArf/rlp"
+	"github.com/arfblocks/goarf/common/mclock"
+	"github.com/arfblocks/goarf/event"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/p2p/discover"
+	"github.com/arfblocks/goarf/rlp"
 )
 
 const (

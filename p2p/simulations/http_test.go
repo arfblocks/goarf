@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tayfunakcay/goArf/event"
-	"github.com/tayfunakcay/goArf/node"
-	"github.com/tayfunakcay/goArf/p2p"
-	"github.com/tayfunakcay/goArf/p2p/discover"
-	"github.com/tayfunakcay/goArf/p2p/simulations/adapters"
-	"github.com/tayfunakcay/goArf/rpc"
+	"github.com/arfblocks/goarf/event"
+	"github.com/arfblocks/goarf/node"
+	"github.com/arfblocks/goarf/p2p"
+	"github.com/arfblocks/goarf/p2p/discover"
+	"github.com/arfblocks/goarf/p2p/simulations/adapters"
+	"github.com/arfblocks/goarf/rpc"
 )
 
 // testService implements the node.Service interface and provides protocols

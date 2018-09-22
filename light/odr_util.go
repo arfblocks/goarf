@@ -20,11 +20,11 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/core"
-	"github.com/tayfunakcay/goArf/core/types"
-	"github.com/tayfunakcay/goArf/crypto"
-	"github.com/tayfunakcay/goArf/rlp"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/core"
+	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goarf/rlp"
 )
 
 var sha3_nil = crypto.Keccak256Hash(nil)

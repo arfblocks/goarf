@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/common/math"
-	"github.com/tayfunakcay/goArf/consensus/ethash"
-	"github.com/tayfunakcay/goArf/core/types"
-	"github.com/tayfunakcay/goArf/params"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/common/math"
+	"github.com/arfblocks/goarf/consensus/ethash"
+	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goarf/params"
 )
 
 //go:generate gencodec -type DifficultyTest -field-override difficultyTestMarshaling -out gen_difficultytest.go

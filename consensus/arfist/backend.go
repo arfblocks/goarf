@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/event"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/event"
 )
 
 // Backend provides application specific functions for ArfIst core

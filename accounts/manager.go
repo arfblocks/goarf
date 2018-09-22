@@ -21,7 +21,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/tayfunakcay/goArf/event"
+	"github.com/arfblocks/goarf/event"
 )
 
 // Manager is an overarching account manager that can communicate with various

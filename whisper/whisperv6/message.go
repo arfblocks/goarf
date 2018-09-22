@@ -28,10 +28,10 @@ import (
 	mrand "math/rand"
 	"strconv"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/crypto"
-	"github.com/tayfunakcay/goArf/crypto/ecies"
-	"github.com/tayfunakcay/goArf/log"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goarf/crypto/ecies"
+	"github.com/arfblocks/goarf/log"
 )
 
 // MessageParams specifies the exact way a message should be wrapped

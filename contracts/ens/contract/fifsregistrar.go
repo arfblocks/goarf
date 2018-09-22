@@ -6,10 +6,10 @@ package contract
 import (
 	"strings"
 
-	"github.com/tayfunakcay/goArf/accounts/abi"
-	"github.com/tayfunakcay/goArf/accounts/abi/bind"
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/core/types"
+	"github.com/arfblocks/goarf/accounts/abi"
+	"github.com/arfblocks/goarf/accounts/abi/bind"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/core/types"
 )
 
 // FIFSRegistrarABI is the input ABI used to generate the binding from.

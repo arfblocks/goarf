@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/consensus/arfist"
-	"github.com/tayfunakcay/goArf/consensus/arfist/validator"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/consensus/arfist"
+	"github.com/arfblocks/goarf/consensus/arfist/validator"
 )
 
 func TestRoundChangeSet(t *testing.T) {

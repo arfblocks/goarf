@@ -30,10 +30,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/metrics"
-	"github.com/tayfunakcay/goArf/swarm/storage"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/metrics"
+	"github.com/arfblocks/goarf/swarm/storage"
 )
 
 var hashMatcher = regexp.MustCompile("^[0-9A-Fa-f]{64}")

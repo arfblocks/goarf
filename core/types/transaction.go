@@ -24,10 +24,10 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/common/hexutil"
-	"github.com/tayfunakcay/goArf/crypto"
-	"github.com/tayfunakcay/goArf/rlp"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/common/hexutil"
+	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goarf/rlp"
 )
 
 //go:generate gencodec -type txdata -field-override txdataMarshaling -out gen_tx_json.go

@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/core/state"
-	"github.com/tayfunakcay/goArf/core/types"
-	"github.com/tayfunakcay/goArf/event"
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/metrics"
-	"github.com/tayfunakcay/goArf/params"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/core/state"
+	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goarf/event"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/metrics"
+	"github.com/arfblocks/goarf/params"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

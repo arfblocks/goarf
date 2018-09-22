@@ -30,10 +30,10 @@ import (
 	"testing/quick"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/crypto"
-	"github.com/tayfunakcay/goArf/ethdb"
-	"github.com/tayfunakcay/goArf/rlp"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goarf/ethdb"
+	"github.com/arfblocks/goarf/rlp"
 )
 
 func init() {

@@ -21,11 +21,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/common/math"
-	"github.com/tayfunakcay/goArf/crypto"
-	"github.com/tayfunakcay/goArf/crypto/bn256"
-	"github.com/tayfunakcay/goArf/params"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/common/math"
+	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goarf/crypto/bn256"
+	"github.com/arfblocks/goarf/params"
 	"golang.org/x/crypto/ripemd160"
 )
 

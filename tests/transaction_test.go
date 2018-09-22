@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/tayfunakcay/goArf/params"
+	"github.com/arfblocks/goarf/params"
 )
 
 func TestTransaction(t *testing.T) {

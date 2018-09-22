@@ -22,9 +22,9 @@ import (
 	"io"
 	"unsafe"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/common/hexutil"
-	"github.com/tayfunakcay/goArf/rlp"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/common/hexutil"
+	"github.com/arfblocks/goarf/rlp"
 )
 
 //go:generate gencodec -type Receipt -field-override receiptMarshaling -out gen_receipt_json.go

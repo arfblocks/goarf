@@ -24,8 +24,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/tayfunakcay/goArf/accounts/abi/bind"
-	"github.com/tayfunakcay/goArf/common/compiler"
+	"github.com/arfblocks/goarf/accounts/abi/bind"
+	"github.com/arfblocks/goarf/common/compiler"
 )
 
 var (

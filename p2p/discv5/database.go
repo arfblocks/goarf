@@ -28,9 +28,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tayfunakcay/goArf/crypto"
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/rlp"
+	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/rlp"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/iterator"

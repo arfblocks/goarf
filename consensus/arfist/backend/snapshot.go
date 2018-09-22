@@ -20,11 +20,11 @@ import (
 	"bytes"
 	"encoding/json"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/consensus/arfist"
-	"github.com/tayfunakcay/goArf/consensus/arfist/validator"
-	"github.com/tayfunakcay/goArf/core/types"
-	"github.com/tayfunakcay/goArf/ethdb"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/consensus/arfist"
+	"github.com/arfblocks/goarf/consensus/arfist/validator"
+	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goarf/ethdb"
 )
 
 const (

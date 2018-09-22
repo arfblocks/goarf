@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/tayfunakcay/goArf/core/vm"
+	"github.com/arfblocks/goarf/core/vm"
 )
 
 func TestVM(t *testing.T) {

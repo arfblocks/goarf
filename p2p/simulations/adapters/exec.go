@@ -36,11 +36,11 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/node"
-	"github.com/tayfunakcay/goArf/p2p"
-	"github.com/tayfunakcay/goArf/p2p/discover"
-	"github.com/tayfunakcay/goArf/rpc"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/node"
+	"github.com/arfblocks/goarf/p2p"
+	"github.com/arfblocks/goarf/p2p/discover"
+	"github.com/arfblocks/goarf/rpc"
 	"golang.org/x/net/websocket"
 )
 

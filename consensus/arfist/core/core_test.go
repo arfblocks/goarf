@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tayfunakcay/goArf/consensus/arfist"
-	"github.com/tayfunakcay/goArf/core/types"
-	elog "github.com/tayfunakcay/goArf/log"
+	"github.com/arfblocks/goarf/consensus/arfist"
+	"github.com/arfblocks/goarf/core/types"
+	elog "github.com/arfblocks/goarf/log"
 )
 
 func makeBlock(number int64) *types.Block {

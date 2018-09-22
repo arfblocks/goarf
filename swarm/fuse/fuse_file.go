@@ -26,8 +26,8 @@ import (
 
 	"bazil.org/fuse"
 	"bazil.org/fuse/fs"
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/swarm/storage"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/swarm/storage"
 	"golang.org/x/net/context"
 )
 

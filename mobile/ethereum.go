@@ -21,8 +21,8 @@ package geth
 import (
 	"errors"
 
-	ethereum "github.com/tayfunakcay/goArf"
-	"github.com/tayfunakcay/goArf/common"
+	ethereum "github.com/arfblocks/goarf"
+	"github.com/arfblocks/goarf/common"
 )
 
 // Subscription represents an event subscription where events are

@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/tayfunakcay/goArf/rlp"
+	"github.com/arfblocks/goarf/rlp"
 )
 
 var (

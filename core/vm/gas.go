@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/tayfunakcay/goArf/params"
+	"github.com/arfblocks/goarf/params"
 )
 
 const (

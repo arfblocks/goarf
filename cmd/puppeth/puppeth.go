@@ -22,7 +22,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/tayfunakcay/goArf/log"
+	"github.com/arfblocks/goarf/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

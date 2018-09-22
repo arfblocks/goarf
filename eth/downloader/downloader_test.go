@@ -25,15 +25,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/consensus/ethash"
-	"github.com/tayfunakcay/goArf/core"
-	"github.com/tayfunakcay/goArf/core/types"
-	"github.com/tayfunakcay/goArf/crypto"
-	"github.com/tayfunakcay/goArf/ethdb"
-	"github.com/tayfunakcay/goArf/event"
-	"github.com/tayfunakcay/goArf/params"
-	"github.com/tayfunakcay/goArf/trie"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/consensus/ethash"
+	"github.com/arfblocks/goarf/core"
+	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goarf/ethdb"
+	"github.com/arfblocks/goarf/event"
+	"github.com/arfblocks/goarf/params"
+	"github.com/arfblocks/goarf/trie"
 )
 
 var (

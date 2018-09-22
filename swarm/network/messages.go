@@ -21,11 +21,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/tayfunakcay/goArf/contracts/chequebook"
-	"github.com/tayfunakcay/goArf/p2p/discover"
-	"github.com/tayfunakcay/goArf/swarm/network/kademlia"
-	"github.com/tayfunakcay/goArf/swarm/services/swap"
-	"github.com/tayfunakcay/goArf/swarm/storage"
+	"github.com/arfblocks/goarf/contracts/chequebook"
+	"github.com/arfblocks/goarf/p2p/discover"
+	"github.com/arfblocks/goarf/swarm/network/kademlia"
+	"github.com/arfblocks/goarf/swarm/services/swap"
+	"github.com/arfblocks/goarf/swarm/storage"
 )
 
 /*

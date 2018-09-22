@@ -20,7 +20,7 @@ import (
 	"crypto/sha256"
 	"testing"
 
-	"github.com/tayfunakcay/goArf/crypto"
+	"github.com/arfblocks/goarf/crypto"
 	"golang.org/x/crypto/pbkdf2"
 )
 

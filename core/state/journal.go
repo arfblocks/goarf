@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"github.com/tayfunakcay/goArf/common"
+	"github.com/arfblocks/goarf/common"
 )
 
 type journalEntry interface {

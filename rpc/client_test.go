@@ -31,7 +31,7 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/tayfunakcay/goArf/log"
+	"github.com/arfblocks/goarf/log"
 )
 
 func TestClientRequest(t *testing.T) {

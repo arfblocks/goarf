@@ -20,7 +20,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/tayfunakcay/goArf/common"
+	"github.com/arfblocks/goarf/common"
 )
 
 const (

@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/params"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/params"
 )
 
 type dummyContractRef struct {

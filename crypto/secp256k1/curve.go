@@ -36,7 +36,7 @@ import (
 	"math/big"
 	"unsafe"
 
-	"github.com/tayfunakcay/goArf/common/math"
+	"github.com/arfblocks/goarf/common/math"
 )
 
 /*

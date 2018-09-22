@@ -25,13 +25,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/node"
-	"github.com/tayfunakcay/goArf/p2p"
-	"github.com/tayfunakcay/goArf/p2p/discover"
-	"github.com/tayfunakcay/goArf/p2p/simulations"
-	"github.com/tayfunakcay/goArf/p2p/simulations/adapters"
-	"github.com/tayfunakcay/goArf/rpc"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/node"
+	"github.com/arfblocks/goarf/p2p"
+	"github.com/arfblocks/goarf/p2p/discover"
+	"github.com/arfblocks/goarf/p2p/simulations"
+	"github.com/arfblocks/goarf/p2p/simulations/adapters"
+	"github.com/arfblocks/goarf/rpc"
 )
 
 var adapterType = flag.String("adapter", "sim", `node adapter to use (one of "sim", "exec" or "docker")`)

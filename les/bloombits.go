@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/tayfunakcay/goArf/common/bitutil"
-	"github.com/tayfunakcay/goArf/light"
+	"github.com/arfblocks/goarf/common/bitutil"
+	"github.com/arfblocks/goarf/light"
 )
 
 const (

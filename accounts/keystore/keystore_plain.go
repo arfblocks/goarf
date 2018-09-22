@@ -22,7 +22,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/tayfunakcay/goArf/common"
+	"github.com/arfblocks/goarf/common"
 )
 
 type keyStorePlain struct {

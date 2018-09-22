@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/p2p"
-	"github.com/tayfunakcay/goArf/rlp"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/p2p"
+	"github.com/arfblocks/goarf/rlp"
 	set "gopkg.in/fatih/set.v0"
 )
 

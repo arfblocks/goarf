@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	ethereum "github.com/tayfunakcay/goArf"
-	"github.com/tayfunakcay/goArf/event"
-	"github.com/tayfunakcay/goArf/rpc"
+	ethereum "github.com/arfblocks/goarf"
+	"github.com/arfblocks/goarf/event"
+	"github.com/arfblocks/goarf/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

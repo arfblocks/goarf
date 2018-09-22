@@ -17,9 +17,9 @@
 package core
 
 import (
-	"github.com/tayfunakcay/goArf/core/state"
-	"github.com/tayfunakcay/goArf/core/types"
-	"github.com/tayfunakcay/goArf/core/vm"
+	"github.com/arfblocks/goarf/core/state"
+	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goarf/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

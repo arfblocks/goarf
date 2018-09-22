@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/tayfunakcay/goArf/node"
-	"github.com/tayfunakcay/goArf/p2p"
-	"github.com/tayfunakcay/goArf/rpc"
+	"github.com/arfblocks/goarf/node"
+	"github.com/arfblocks/goarf/p2p"
+	"github.com/arfblocks/goarf/rpc"
 )
 
 // SampleService is a trivial network service that can be attached to a node for

@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common"
+	"github.com/arfblocks/goarf/common"
 	"golang.org/x/crypto/pbkdf2"
 )
 

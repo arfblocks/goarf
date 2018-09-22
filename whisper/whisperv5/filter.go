@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/crypto"
-	"github.com/tayfunakcay/goArf/log"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goarf/log"
 )
 
 type Filter struct {

@@ -24,9 +24,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/swarm/storage"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/swarm/storage"
 )
 
 func testApi(t *testing.T, f func(*Api)) {

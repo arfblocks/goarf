@@ -23,9 +23,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/tayfunakcay/goArf/accounts/keystore"
-	"github.com/tayfunakcay/goArf/cmd/utils"
-	"github.com/tayfunakcay/goArf/crypto"
+	"github.com/arfblocks/goarf/accounts/keystore"
+	"github.com/arfblocks/goarf/cmd/utils"
+	"github.com/arfblocks/goarf/crypto"
 	"github.com/pborman/uuid"
 	"gopkg.in/urfave/cli.v1"
 )

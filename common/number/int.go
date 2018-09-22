@@ -19,7 +19,7 @@ package number
 import (
 	"math/big"
 
-	"github.com/tayfunakcay/goArf/common"
+	"github.com/arfblocks/goarf/common"
 )
 
 var tt256 = new(big.Int).Lsh(big.NewInt(1), 256)

@@ -17,9 +17,9 @@
 package vm
 
 import (
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/common/math"
-	"github.com/tayfunakcay/goArf/params"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/common/math"
+	"github.com/arfblocks/goarf/params"
 )
 
 // memoryGasCosts calculates the quadratic gas for memory expansion. It does so

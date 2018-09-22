@@ -34,7 +34,7 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/tayfunakcay/goArf/p2p"
+	"github.com/arfblocks/goarf/p2p"
 )
 
 // error codes used by this  protocol scheme

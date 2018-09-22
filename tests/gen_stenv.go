@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/common/math"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/common/math"
 )
 
 var _ = (*stEnvMarshaling)(nil)

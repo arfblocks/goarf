@@ -21,10 +21,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/consensus/arfist"
-	"github.com/tayfunakcay/goArf/consensus/arfist/validator"
-	"github.com/tayfunakcay/goArf/crypto"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/consensus/arfist"
+	"github.com/arfblocks/goarf/consensus/arfist/validator"
+	"github.com/arfblocks/goarf/crypto"
 )
 
 func TestHandlePrepare(t *testing.T) {

@@ -20,8 +20,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/tayfunakcay/goArf/core/types"
-	"github.com/tayfunakcay/goArf/crypto"
+	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goarf/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

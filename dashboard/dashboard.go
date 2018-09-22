@@ -33,11 +33,11 @@ import (
 	"time"
 
 	"github.com/elastic/gosigar"
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/metrics"
-	"github.com/tayfunakcay/goArf/p2p"
-	"github.com/tayfunakcay/goArf/params"
-	"github.com/tayfunakcay/goArf/rpc"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/metrics"
+	"github.com/arfblocks/goarf/p2p"
+	"github.com/arfblocks/goarf/params"
+	"github.com/arfblocks/goarf/rpc"
 	"golang.org/x/net/websocket"
 )
 

@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/tayfunakcay/goArf/common/hexutil"
+	"github.com/arfblocks/goarf/common/hexutil"
 )
 
 type MyType [5]byte

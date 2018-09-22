@@ -19,10 +19,10 @@ package backend
 import (
 	"errors"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/consensus"
-	"github.com/tayfunakcay/goArf/consensus/arfist"
-	"github.com/tayfunakcay/goArf/p2p"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/consensus"
+	"github.com/arfblocks/goarf/consensus/arfist"
+	"github.com/arfblocks/goarf/p2p"
 	lru "github.com/hashicorp/golang-lru"
 )
 

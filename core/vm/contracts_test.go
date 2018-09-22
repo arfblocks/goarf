@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/tayfunakcay/goArf/common"
+	"github.com/arfblocks/goarf/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

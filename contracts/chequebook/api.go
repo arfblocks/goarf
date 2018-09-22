@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/tayfunakcay/goArf/common"
+	"github.com/arfblocks/goarf/common"
 )
 
 const Version = "1.0"

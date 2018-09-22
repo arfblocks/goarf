@@ -23,10 +23,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/tayfunakcay/goArf/accounts"
-	"github.com/tayfunakcay/goArf/accounts/keystore"
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/crypto"
+	"github.com/arfblocks/goarf/accounts"
+	"github.com/arfblocks/goarf/accounts/keystore"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/crypto"
 )
 
 const (

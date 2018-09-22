@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/core/types"
-	"github.com/tayfunakcay/goArf/params"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goarf/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

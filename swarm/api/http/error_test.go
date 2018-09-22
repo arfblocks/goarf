@@ -25,7 +25,7 @@ import (
 
 	"golang.org/x/net/html"
 
-	"github.com/tayfunakcay/goArf/swarm/testutil"
+	"github.com/arfblocks/goarf/swarm/testutil"
 )
 
 func TestError(t *testing.T) {

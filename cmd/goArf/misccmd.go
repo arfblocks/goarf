@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tayfunakcay/goArf/cmd/utils"
-	"github.com/tayfunakcay/goArf/consensus/ethash"
-	"github.com/tayfunakcay/goArf/eth"
-	"github.com/tayfunakcay/goArf/params"
+	"github.com/arfblocks/goarf/cmd/utils"
+	"github.com/arfblocks/goarf/consensus/ethash"
+	"github.com/arfblocks/goarf/eth"
+	"github.com/arfblocks/goarf/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

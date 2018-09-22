@@ -19,7 +19,7 @@
 This key store behaves as KeyStorePlain with the difference that
 the private key is encrypted and on disk uses another JSON encoding.
 
-The crypto is documented at https://github.com/tayfunakcay/wiki/wiki/Web3-Secret-Storage-Definition
+The crypto is documented at https://github.com/arfblocks/wiki/wiki/Web3-Secret-Storage-Definition
 
 */
 
@@ -36,10 +36,10 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/common/math"
-	"github.com/tayfunakcay/goArf/crypto"
-	"github.com/tayfunakcay/goArf/crypto/randentropy"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/common/math"
+	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goarf/crypto/randentropy"
 	"github.com/pborman/uuid"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/scrypt"

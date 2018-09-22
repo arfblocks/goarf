@@ -23,11 +23,11 @@ package ens
 import (
 	"strings"
 
-	"github.com/tayfunakcay/goArf/accounts/abi/bind"
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/contracts/ens/contract"
-	"github.com/tayfunakcay/goArf/core/types"
-	"github.com/tayfunakcay/goArf/crypto"
+	"github.com/arfblocks/goarf/accounts/abi/bind"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/contracts/ens/contract"
+	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goarf/crypto"
 )
 
 var (

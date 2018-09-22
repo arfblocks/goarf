@@ -22,13 +22,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/core"
-	"github.com/tayfunakcay/goArf/core/state"
-	"github.com/tayfunakcay/goArf/crypto/sha3"
-	"github.com/tayfunakcay/goArf/ethdb"
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/trie"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/core"
+	"github.com/arfblocks/goarf/core/state"
+	"github.com/arfblocks/goarf/crypto/sha3"
+	"github.com/arfblocks/goarf/ethdb"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/trie"
 )
 
 // stateReq represents a batch of state fetch requests groupped together into

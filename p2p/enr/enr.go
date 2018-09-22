@@ -35,9 +35,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/tayfunakcay/goArf/crypto"
-	"github.com/tayfunakcay/goArf/crypto/sha3"
-	"github.com/tayfunakcay/goArf/rlp"
+	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goarf/crypto/sha3"
+	"github.com/arfblocks/goarf/rlp"
 )
 
 const SizeLimit = 300 // maximum encoded size of a node record in bytes

@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/tayfunakcay/goArf/core/types"
+	"github.com/arfblocks/goarf/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

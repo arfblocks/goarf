@@ -22,9 +22,9 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/tayfunakcay/goArf/cmd/utils"
-	"github.com/tayfunakcay/goArf/console"
-	"github.com/tayfunakcay/goArf/crypto"
+	"github.com/arfblocks/goarf/cmd/utils"
+	"github.com/arfblocks/goarf/console"
+	"github.com/arfblocks/goarf/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

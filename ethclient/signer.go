@@ -20,8 +20,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/core/types"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/core/types"
 )
 
 // senderFromServer is a types.Signer that remembers the sender address returned by the RPC

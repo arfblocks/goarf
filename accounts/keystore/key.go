@@ -29,9 +29,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tayfunakcay/goArf/accounts"
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/crypto"
+	"github.com/arfblocks/goarf/accounts"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/crypto"
 	"github.com/pborman/uuid"
 )
 

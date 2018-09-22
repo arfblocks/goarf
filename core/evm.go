@@ -19,10 +19,10 @@ package core
 import (
 	"math/big"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/consensus"
-	"github.com/tayfunakcay/goArf/core/types"
-	"github.com/tayfunakcay/goArf/core/vm"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/consensus"
+	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goarf/core/vm"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

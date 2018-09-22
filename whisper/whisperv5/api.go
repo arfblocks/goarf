@@ -24,12 +24,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/common/hexutil"
-	"github.com/tayfunakcay/goArf/crypto"
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/p2p/discover"
-	"github.com/tayfunakcay/goArf/rpc"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/common/hexutil"
+	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/p2p/discover"
+	"github.com/arfblocks/goarf/rpc"
 )
 
 const (

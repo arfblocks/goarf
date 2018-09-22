@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tayfunakcay/goArf/cmd/utils"
+	"github.com/arfblocks/goarf/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

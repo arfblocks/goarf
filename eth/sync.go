@@ -21,11 +21,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/core/types"
-	"github.com/tayfunakcay/goArf/eth/downloader"
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/p2p/discover"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goarf/eth/downloader"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/p2p/discover"
 )
 
 const (

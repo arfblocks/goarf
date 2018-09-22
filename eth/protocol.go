@@ -21,11 +21,11 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/core"
-	"github.com/tayfunakcay/goArf/core/types"
-	"github.com/tayfunakcay/goArf/event"
-	"github.com/tayfunakcay/goArf/rlp"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/core"
+	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goarf/event"
+	"github.com/arfblocks/goarf/rlp"
 )
 
 const ProtocolMaxMsgSize = 10 * 1024 * 1024 // Maximum cap on the size of a protocol message

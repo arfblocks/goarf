@@ -27,10 +27,10 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/common/hexutil"
-	"github.com/tayfunakcay/goArf/crypto/sha3"
-	"github.com/tayfunakcay/goArf/rlp"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/common/hexutil"
+	"github.com/arfblocks/goarf/crypto/sha3"
+	"github.com/arfblocks/goarf/rlp"
 )
 
 var (

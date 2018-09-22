@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tayfunakcay/goArf/accounts/usbwallet"
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/rpc"
+	"github.com/arfblocks/goarf/accounts/usbwallet"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/rpc"
 	"github.com/robertkrimen/otto"
 )
 

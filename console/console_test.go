@@ -26,12 +26,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/consensus/ethash"
-	"github.com/tayfunakcay/goArf/core"
-	"github.com/tayfunakcay/goArf/eth"
-	"github.com/tayfunakcay/goArf/internal/jsre"
-	"github.com/tayfunakcay/goArf/node"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/consensus/ethash"
+	"github.com/arfblocks/goarf/core"
+	"github.com/arfblocks/goarf/eth"
+	"github.com/arfblocks/goarf/internal/jsre"
+	"github.com/arfblocks/goarf/node"
 )
 
 const (

@@ -23,12 +23,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/consensus/arfist"
-	"github.com/tayfunakcay/goArf/core/types"
-	"github.com/tayfunakcay/goArf/event"
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/metrics"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/consensus/arfist"
+	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goarf/event"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/metrics"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

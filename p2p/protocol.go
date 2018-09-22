@@ -19,7 +19,7 @@ package p2p
 import (
 	"fmt"
 
-	"github.com/tayfunakcay/goArf/p2p/discover"
+	"github.com/arfblocks/goarf/p2p/discover"
 )
 
 // Protocol represents a P2P subprotocol implementation.

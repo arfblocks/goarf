@@ -19,8 +19,8 @@ package core
 import (
 	"time"
 
-	"github.com/tayfunakcay/goArf/consensus"
-	"github.com/tayfunakcay/goArf/consensus/arfist"
+	"github.com/arfblocks/goarf/consensus"
+	"github.com/arfblocks/goarf/consensus/arfist"
 )
 
 func (c *core) sendPreprepare(request *arfist.Request) {

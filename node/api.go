@@ -22,12 +22,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common/hexutil"
-	"github.com/tayfunakcay/goArf/crypto"
-	"github.com/tayfunakcay/goArf/metrics"
-	"github.com/tayfunakcay/goArf/p2p"
-	"github.com/tayfunakcay/goArf/p2p/discover"
-	"github.com/tayfunakcay/goArf/rpc"
+	"github.com/arfblocks/goarf/common/hexutil"
+	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goarf/metrics"
+	"github.com/arfblocks/goarf/p2p"
+	"github.com/arfblocks/goarf/p2p/discover"
+	"github.com/arfblocks/goarf/rpc"
 )
 
 // PrivateAdminAPI is the collection of administrative API methods exposed only

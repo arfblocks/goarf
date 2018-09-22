@@ -20,7 +20,7 @@ import (
 	"html/template"
 	"path"
 
-	"github.com/tayfunakcay/goArf/swarm/api"
+	"github.com/arfblocks/goarf/swarm/api"
 )
 
 type htmlListData struct {

@@ -20,8 +20,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/ethdb"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/ethdb"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

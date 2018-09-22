@@ -19,10 +19,10 @@ package downloader
 import (
 	"math/big"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/core"
-	"github.com/tayfunakcay/goArf/core/types"
-	"github.com/tayfunakcay/goArf/ethdb"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/core"
+	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goarf/ethdb"
 )
 
 // FakePeer is a mock downloader peer that operates on a local database instance

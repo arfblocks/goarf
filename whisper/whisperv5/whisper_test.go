@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common"
+	"github.com/arfblocks/goarf/common"
 )
 
 func TestWhisperBasic(t *testing.T) {

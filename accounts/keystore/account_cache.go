@@ -27,9 +27,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tayfunakcay/goArf/accounts"
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/log"
+	"github.com/arfblocks/goarf/accounts"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/log"
 	"gopkg.in/fatih/set.v0"
 )
 

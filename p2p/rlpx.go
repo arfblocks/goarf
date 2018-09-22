@@ -35,12 +35,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tayfunakcay/goArf/crypto"
-	"github.com/tayfunakcay/goArf/crypto/ecies"
-	"github.com/tayfunakcay/goArf/crypto/secp256k1"
-	"github.com/tayfunakcay/goArf/crypto/sha3"
-	"github.com/tayfunakcay/goArf/p2p/discover"
-	"github.com/tayfunakcay/goArf/rlp"
+	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goarf/crypto/ecies"
+	"github.com/arfblocks/goarf/crypto/secp256k1"
+	"github.com/arfblocks/goarf/crypto/sha3"
+	"github.com/arfblocks/goarf/p2p/discover"
+	"github.com/arfblocks/goarf/rlp"
 	"github.com/golang/snappy"
 )
 

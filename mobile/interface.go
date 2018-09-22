@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/tayfunakcay/goArf/common"
+	"github.com/arfblocks/goarf/common"
 )
 
 // Interface represents a wrapped version of Go's interface{}, with the capacity

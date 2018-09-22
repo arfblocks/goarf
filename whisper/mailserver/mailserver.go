@@ -20,12 +20,12 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/tayfunakcay/goArf/cmd/utils"
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/crypto"
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/rlp"
-	whisper "github.com/tayfunakcay/goArf/whisper/whisperv6"
+	"github.com/arfblocks/goarf/cmd/utils"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/rlp"
+	whisper "github.com/arfblocks/goarf/whisper/whisperv6"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/util"
 )

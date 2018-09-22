@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/tayfunakcay/goArf/common/hexutil"
-	"github.com/tayfunakcay/goArf/common/math"
+	"github.com/arfblocks/goarf/common/hexutil"
+	"github.com/arfblocks/goarf/common/math"
 )
 
 var _ = (*stTransactionMarshaling)(nil)

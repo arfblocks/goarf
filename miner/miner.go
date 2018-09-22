@@ -21,17 +21,17 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/tayfunakcay/goArf/accounts"
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/consensus"
-	"github.com/tayfunakcay/goArf/core"
-	"github.com/tayfunakcay/goArf/core/state"
-	"github.com/tayfunakcay/goArf/core/types"
-	"github.com/tayfunakcay/goArf/eth/downloader"
-	"github.com/tayfunakcay/goArf/ethdb"
-	"github.com/tayfunakcay/goArf/event"
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/params"
+	"github.com/arfblocks/goarf/accounts"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/consensus"
+	"github.com/arfblocks/goarf/core"
+	"github.com/arfblocks/goarf/core/state"
+	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goarf/eth/downloader"
+	"github.com/arfblocks/goarf/ethdb"
+	"github.com/arfblocks/goarf/event"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/params"
 )
 
 // Backend wraps all methods required for mining.

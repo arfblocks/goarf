@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/tayfunakcay/goArf/rpc"
+	"github.com/arfblocks/goarf/rpc"
 )
 
 // In this example, our client whishes to track the latest 'block number'

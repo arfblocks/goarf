@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tayfunakcay/goArf/log"
+	"github.com/arfblocks/goarf/log"
 )
 
 // manageServers displays a list of servers the user can disconnect from, and an

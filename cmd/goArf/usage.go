@@ -24,8 +24,8 @@ import (
 
 	"strings"
 
-	"github.com/tayfunakcay/goArf/cmd/utils"
-	"github.com/tayfunakcay/goArf/internal/debug"
+	"github.com/arfblocks/goarf/cmd/utils"
+	"github.com/arfblocks/goarf/internal/debug"
 	"gopkg.in/urfave/cli.v1"
 )
 

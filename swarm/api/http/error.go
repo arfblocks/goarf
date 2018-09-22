@@ -28,9 +28,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/metrics"
-	"github.com/tayfunakcay/goArf/swarm/api"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/metrics"
+	"github.com/arfblocks/goarf/swarm/api"
 )
 
 //templateMap holds a mapping of an HTTP error code to a template

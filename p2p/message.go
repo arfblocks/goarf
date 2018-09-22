@@ -25,9 +25,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/tayfunakcay/goArf/event"
-	"github.com/tayfunakcay/goArf/p2p/discover"
-	"github.com/tayfunakcay/goArf/rlp"
+	"github.com/arfblocks/goarf/event"
+	"github.com/arfblocks/goarf/p2p/discover"
+	"github.com/arfblocks/goarf/rlp"
 )
 
 // Msg defines the structure of a p2p message.

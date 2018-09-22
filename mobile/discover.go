@@ -22,7 +22,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/tayfunakcay/goArf/p2p/discv5"
+	"github.com/arfblocks/goarf/p2p/discv5"
 )
 
 // Enode represents a host on the network.

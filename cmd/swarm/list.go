@@ -22,8 +22,8 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/tayfunakcay/goArf/cmd/utils"
-	swarm "github.com/tayfunakcay/goArf/swarm/api/client"
+	"github.com/arfblocks/goarf/cmd/utils"
+	swarm "github.com/arfblocks/goarf/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

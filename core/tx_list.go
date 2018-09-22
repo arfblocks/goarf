@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/core/types"
-	"github.com/tayfunakcay/goArf/log"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goarf/log"
 )
 
 // nonceHeap is a heap.Interface implementation over 64bit unsigned integers for

@@ -19,9 +19,9 @@ package keystore
 import (
 	"math/big"
 
-	ethereum "github.com/tayfunakcay/goArf"
-	"github.com/tayfunakcay/goArf/accounts"
-	"github.com/tayfunakcay/goArf/core/types"
+	ethereum "github.com/arfblocks/goarf"
+	"github.com/arfblocks/goarf/accounts"
+	"github.com/arfblocks/goarf/core/types"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

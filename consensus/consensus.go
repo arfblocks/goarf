@@ -18,12 +18,12 @@
 package consensus
 
 import (
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/core/state"
-	"github.com/tayfunakcay/goArf/core/types"
-	"github.com/tayfunakcay/goArf/p2p"
-	"github.com/tayfunakcay/goArf/params"
-	"github.com/tayfunakcay/goArf/rpc"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/core/state"
+	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goarf/p2p"
+	"github.com/arfblocks/goarf/params"
+	"github.com/arfblocks/goarf/rpc"
 	"math/big"
 )
 

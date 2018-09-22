@@ -24,12 +24,12 @@ import (
 	"net"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/crypto"
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/p2p/nat"
-	"github.com/tayfunakcay/goArf/p2p/netutil"
-	"github.com/tayfunakcay/goArf/rlp"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/p2p/nat"
+	"github.com/arfblocks/goarf/p2p/netutil"
+	"github.com/arfblocks/goarf/rlp"
 )
 
 const Version = 4

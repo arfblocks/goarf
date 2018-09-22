@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tayfunakcay/goArf/crypto"
-	"github.com/tayfunakcay/goArf/rlp"
+	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goarf/rlp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

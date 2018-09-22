@@ -17,10 +17,10 @@
 package backend
 
 import (
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/consensus"
-	"github.com/tayfunakcay/goArf/core/types"
-	"github.com/tayfunakcay/goArf/rpc"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/consensus"
+	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goarf/rpc"
 )
 
 // API is a user facing RPC API to dump ArfIst state

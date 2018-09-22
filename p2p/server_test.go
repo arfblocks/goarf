@@ -25,10 +25,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tayfunakcay/goArf/crypto"
-	"github.com/tayfunakcay/goArf/crypto/sha3"
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/p2p/discover"
+	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goarf/crypto/sha3"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/p2p/discover"
 )
 
 func init() {

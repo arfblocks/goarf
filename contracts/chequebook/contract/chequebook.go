@@ -7,12 +7,12 @@ import (
 	"math/big"
 	"strings"
 
-	ethereum "github.com/tayfunakcay/goArf"
-	"github.com/tayfunakcay/goArf/accounts/abi"
-	"github.com/tayfunakcay/goArf/accounts/abi/bind"
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/core/types"
-	"github.com/tayfunakcay/goArf/event"
+	ethereum "github.com/arfblocks/goarf"
+	"github.com/arfblocks/goarf/accounts/abi"
+	"github.com/arfblocks/goarf/accounts/abi/bind"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goarf/event"
 )
 
 // ChequebookABI is the input ABI used to generate the binding from.

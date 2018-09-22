@@ -19,7 +19,7 @@ package storage
 import (
 	"encoding/binary"
 
-	"github.com/tayfunakcay/goArf/metrics"
+	"github.com/arfblocks/goarf/metrics"
 )
 
 //metrics variables

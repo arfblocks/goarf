@@ -19,8 +19,8 @@ package state
 import (
 	"testing"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/ethdb"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/ethdb"
 )
 
 var addr = common.BytesToAddress([]byte("test"))

@@ -21,11 +21,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tayfunakcay/goArf/accounts/abi"
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/core/state"
-	"github.com/tayfunakcay/goArf/core/vm"
-	"github.com/tayfunakcay/goArf/ethdb"
+	"github.com/arfblocks/goarf/accounts/abi"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/core/state"
+	"github.com/arfblocks/goarf/core/vm"
+	"github.com/arfblocks/goarf/ethdb"
 )
 
 func TestDefaults(t *testing.T) {

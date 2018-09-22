@@ -25,7 +25,7 @@ int   evmjit_run(void* _jit, void* _data, void* _env);
 void  evmjit_destroy(void* _jit);
 
 // Shared library evmjit (e.g. libevmjit.so) is expected to be installed in /usr/local/lib
-// More: https://github.com/tayfunakcay/evmjit
+// More: https://github.com/arfblocks/evmjit
 #cgo LDFLAGS: -levmjit
 */
 import "C"
@@ -38,9 +38,9 @@ import (
 	"math/big"
 	"unsafe"
 
-	"github.com/tayfunakcay/goArf/core/state"
-	"github.com/tayfunakcay/goArf/crypto"
-	"github.com/tayfunakcay/goArf/params"
+	"github.com/arfblocks/goarf/core/state"
+	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goarf/params"
 )
 
 type JitVm struct {

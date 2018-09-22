@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/tayfunakcay/goArf/common"
+import "github.com/arfblocks/goarf/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

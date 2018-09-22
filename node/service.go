@@ -20,11 +20,11 @@ import (
 	"crypto/ecdsa"
 	"reflect"
 
-	"github.com/tayfunakcay/goArf/accounts"
-	"github.com/tayfunakcay/goArf/ethdb"
-	"github.com/tayfunakcay/goArf/event"
-	"github.com/tayfunakcay/goArf/p2p"
-	"github.com/tayfunakcay/goArf/rpc"
+	"github.com/arfblocks/goarf/accounts"
+	"github.com/arfblocks/goarf/ethdb"
+	"github.com/arfblocks/goarf/event"
+	"github.com/arfblocks/goarf/p2p"
+	"github.com/arfblocks/goarf/rpc"
 )
 
 // ServiceContext is a collection of service independent options inherited from

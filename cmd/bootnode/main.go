@@ -24,13 +24,13 @@ import (
 	"net"
 	"os"
 
-	"github.com/tayfunakcay/goArf/cmd/utils"
-	"github.com/tayfunakcay/goArf/crypto"
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/p2p/discover"
-	"github.com/tayfunakcay/goArf/p2p/discv5"
-	"github.com/tayfunakcay/goArf/p2p/nat"
-	"github.com/tayfunakcay/goArf/p2p/netutil"
+	"github.com/arfblocks/goarf/cmd/utils"
+	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/p2p/discover"
+	"github.com/arfblocks/goarf/p2p/discv5"
+	"github.com/arfblocks/goarf/p2p/nat"
+	"github.com/arfblocks/goarf/p2p/netutil"
 )
 
 func main() {

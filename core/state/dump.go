@@ -20,9 +20,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/rlp"
-	"github.com/tayfunakcay/goArf/trie"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goarf/trie"
 )
 
 type DumpAccount struct {

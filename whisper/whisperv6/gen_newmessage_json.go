@@ -5,7 +5,7 @@ package whisperv6
 import (
 	"encoding/json"
 
-	"github.com/tayfunakcay/goArf/common/hexutil"
+	"github.com/arfblocks/goarf/common/hexutil"
 )
 
 var _ = (*newMessageOverride)(nil)

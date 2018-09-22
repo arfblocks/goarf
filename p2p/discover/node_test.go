@@ -28,8 +28,8 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/crypto"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/crypto"
 )
 
 func ExampleNewNode() {

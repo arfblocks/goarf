@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tayfunakcay/goArf/crypto/sha3"
+	"github.com/arfblocks/goarf/crypto/sha3"
 )
 
 /*

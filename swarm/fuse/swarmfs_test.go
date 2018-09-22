@@ -27,8 +27,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/tayfunakcay/goArf/swarm/api"
-	"github.com/tayfunakcay/goArf/swarm/storage"
+	"github.com/arfblocks/goarf/swarm/api"
+	"github.com/arfblocks/goarf/swarm/storage"
 )
 
 type fileInfo struct {

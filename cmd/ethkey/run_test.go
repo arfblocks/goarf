@@ -22,7 +22,7 @@ import (
 	"testing"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/tayfunakcay/goArf/internal/cmdtest"
+	"github.com/arfblocks/goarf/internal/cmdtest"
 )
 
 type testEthkey struct {

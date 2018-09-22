@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/tayfunakcay/goArf/cmd/evm/internal/compiler"
+	"github.com/arfblocks/goarf/cmd/evm/internal/compiler"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/ethdb"
-	"github.com/tayfunakcay/goArf/trie"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/ethdb"
+	"github.com/arfblocks/goarf/trie"
 	lru "github.com/hashicorp/golang-lru"
 )
 

@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tayfunakcay/goArf/p2p/discover"
+	"github.com/arfblocks/goarf/p2p/discover"
 )
 
 func TestMocker(t *testing.T) {

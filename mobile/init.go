@@ -22,7 +22,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/tayfunakcay/goArf/log"
+	"github.com/arfblocks/goarf/log"
 )
 
 func init() {

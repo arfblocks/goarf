@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/tayfunakcay/goArf/common/math"
-	"github.com/tayfunakcay/goArf/core/vm"
+	"github.com/arfblocks/goarf/common/math"
+	"github.com/arfblocks/goarf/core/vm"
 )
 
 // Compiler contains information about the parsed source

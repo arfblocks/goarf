@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/metrics"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/metrics"
 )
 
 //metrics variables

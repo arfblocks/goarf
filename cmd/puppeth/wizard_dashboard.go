@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/tayfunakcay/goArf/log"
+	"github.com/arfblocks/goarf/log"
 )
 
 // deployDashboard queries the user for various input on deploying a web-service

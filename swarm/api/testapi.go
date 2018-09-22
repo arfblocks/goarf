@@ -17,7 +17,7 @@
 package api
 
 import (
-	"github.com/tayfunakcay/goArf/swarm/network"
+	"github.com/arfblocks/goarf/swarm/network"
 )
 
 type Control struct {

@@ -24,7 +24,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/tayfunakcay/goArf/core/types"
+	"github.com/arfblocks/goarf/core/types"
 )
 
 // Tests that ethash works correctly in test mode.
@@ -44,7 +44,7 @@ func TestTestMode(t *testing.T) {
 }
 
 // This test checks that cache lru logic doesn't crash under load.
-// It reproduces https://github.com/tayfunakcay/goArf/issues/14943
+// It reproduces https://github.com/arfblocks/goarf/issues/14943
 func TestCacheFileEvict(t *testing.T) {
 	tmpdir, err := ioutil.TempDir("", "ethash-test")
 	if err != nil {

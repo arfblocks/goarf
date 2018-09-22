@@ -23,13 +23,13 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/crypto"
-	"github.com/tayfunakcay/goArf/rlp"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goarf/rlp"
 )
 
 // The values in those tests are from the Transaction Tests
-// at github.com/tayfunakcay/tests.
+// at github.com/arfblocks/tests.
 var (
 	emptyTx = NewTransaction(
 		0,

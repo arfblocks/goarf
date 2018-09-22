@@ -24,10 +24,10 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/log/term"
-	"github.com/tayfunakcay/goArf/metrics"
-	"github.com/tayfunakcay/goArf/metrics/exp"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/log/term"
+	"github.com/arfblocks/goarf/metrics"
+	"github.com/arfblocks/goarf/metrics/exp"
 	colorable "github.com/mattn/go-colorable"
 	"gopkg.in/urfave/cli.v1"
 )

@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/tayfunakcay/goArf/params"
+	"github.com/arfblocks/goarf/params"
 )
 
 func makeStackFunc(pop, push int) stackValidationFunc {

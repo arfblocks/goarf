@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/log"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/log"
 )
 
 // SecureTrie wraps a trie with key hashing. In a secure trie, all

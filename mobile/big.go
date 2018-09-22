@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/tayfunakcay/goArf/common"
+	"github.com/arfblocks/goarf/common"
 )
 
 // A BigInt represents a signed multi-precision integer.

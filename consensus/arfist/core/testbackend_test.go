@@ -21,13 +21,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/consensus/arfist"
-	"github.com/tayfunakcay/goArf/consensus/arfist/validator"
-	"github.com/tayfunakcay/goArf/crypto"
-	"github.com/tayfunakcay/goArf/ethdb"
-	"github.com/tayfunakcay/goArf/event"
-	elog "github.com/tayfunakcay/goArf/log"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/consensus/arfist"
+	"github.com/arfblocks/goarf/consensus/arfist/validator"
+	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goarf/ethdb"
+	"github.com/arfblocks/goarf/event"
+	elog "github.com/arfblocks/goarf/log"
 )
 
 var testLogger = elog.New()

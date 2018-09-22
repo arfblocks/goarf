@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/swarm/storage"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/swarm/storage"
 )
 
 const requesterCount = 3

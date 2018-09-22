@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/tayfunakcay/goArf/metrics"
-	"github.com/tayfunakcay/goArf/p2p"
+	"github.com/arfblocks/goarf/metrics"
+	"github.com/arfblocks/goarf/p2p"
 )
 
 var (

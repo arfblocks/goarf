@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tayfunakcay/goArf/log"
+	"github.com/arfblocks/goarf/log"
 )
 
 // deployExplorer creates a new block explorer based on some user input.

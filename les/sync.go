@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/tayfunakcay/goArf/core"
-	"github.com/tayfunakcay/goArf/eth/downloader"
-	"github.com/tayfunakcay/goArf/light"
+	"github.com/arfblocks/goarf/core"
+	"github.com/arfblocks/goarf/eth/downloader"
+	"github.com/arfblocks/goarf/light"
 )
 
 const (

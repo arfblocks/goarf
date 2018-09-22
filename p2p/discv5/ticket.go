@@ -25,10 +25,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/common/mclock"
-	"github.com/tayfunakcay/goArf/crypto"
-	"github.com/tayfunakcay/goArf/log"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/common/mclock"
+	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goarf/log"
 )
 
 const (

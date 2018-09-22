@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tayfunakcay/goArf/common"
+	"github.com/arfblocks/goarf/common"
 )
 
 // Hash represents the 32 byte Keccak256 hash of arbitrary data.

@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common/bitutil"
-	"github.com/tayfunakcay/goArf/crypto"
+	"github.com/arfblocks/goarf/common/bitutil"
+	"github.com/arfblocks/goarf/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

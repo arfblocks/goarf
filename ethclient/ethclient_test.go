@@ -16,7 +16,7 @@
 
 package ethclient
 
-import "github.com/tayfunakcay/goArf"
+import "github.com/arfblocks/goarf"
 
 // Verify that Client implements the ethereum interfaces.
 var (

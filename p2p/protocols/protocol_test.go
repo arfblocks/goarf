@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tayfunakcay/goArf/p2p"
-	"github.com/tayfunakcay/goArf/p2p/discover"
-	"github.com/tayfunakcay/goArf/p2p/simulations/adapters"
-	p2ptest "github.com/tayfunakcay/goArf/p2p/testing"
+	"github.com/arfblocks/goarf/p2p"
+	"github.com/arfblocks/goarf/p2p/discover"
+	"github.com/arfblocks/goarf/p2p/simulations/adapters"
+	p2ptest "github.com/arfblocks/goarf/p2p/testing"
 )
 
 // handshake message type

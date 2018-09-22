@@ -17,7 +17,7 @@
 package fuse
 
 import (
-	"github.com/tayfunakcay/goArf/swarm/api"
+	"github.com/arfblocks/goarf/swarm/api"
 	"sync"
 	"time"
 )

@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/tayfunakcay/goArf/rlp"
+	"github.com/arfblocks/goarf/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

@@ -24,8 +24,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/tayfunakcay/goArf/common/math"
-	"github.com/tayfunakcay/goArf/crypto/randentropy"
+	"github.com/arfblocks/goarf/common/math"
+	"github.com/arfblocks/goarf/crypto/randentropy"
 )
 
 const TestCount = 1000

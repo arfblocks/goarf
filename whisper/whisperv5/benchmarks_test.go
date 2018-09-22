@@ -19,7 +19,7 @@ package whisperv5
 import (
 	"testing"
 
-	"github.com/tayfunakcay/goArf/crypto"
+	"github.com/arfblocks/goarf/crypto"
 )
 
 func BenchmarkDeriveKeyMaterial(b *testing.B) {

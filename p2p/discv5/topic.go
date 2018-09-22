@@ -23,8 +23,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common/mclock"
-	"github.com/tayfunakcay/goArf/log"
+	"github.com/arfblocks/goarf/common/mclock"
+	"github.com/arfblocks/goarf/log"
 )
 
 const (

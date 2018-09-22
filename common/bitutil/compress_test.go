@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/tayfunakcay/goArf/common/hexutil"
+	"github.com/arfblocks/goarf/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

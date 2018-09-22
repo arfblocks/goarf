@@ -11,7 +11,7 @@
 
   <name>Android Ethereum Client</name>
   <description>Android port of the goArf libraries and node</description>
-  <url>https://github.com/tayfunakcay/goArf</url>
+  <url>https://github.com/arfblocks/goarf</url>
   <inceptionYear>2015</inceptionYear>
 
   <licenses>
@@ -48,10 +48,10 @@
 
   <issueManagement>
     <system>GitHub Issues</system>
-    <url>https://github.com/tayfunakcay/goArf/issues/</url>
+    <url>https://github.com/arfblocks/goarf/issues/</url>
   </issueManagement>
 
   <scm>
-    <url>https://github.com/tayfunakcay/goArf</url>
+    <url>https://github.com/arfblocks/goarf</url>
   </scm>
 </project>

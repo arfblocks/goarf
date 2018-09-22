@@ -21,8 +21,8 @@ import (
 
 	"sync/atomic"
 
-	"github.com/tayfunakcay/goArf/consensus"
-	"github.com/tayfunakcay/goArf/log"
+	"github.com/arfblocks/goarf/consensus"
+	"github.com/arfblocks/goarf/log"
 )
 
 type CpuAgent struct {

@@ -26,8 +26,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/internal/jsre/deps"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/internal/jsre/deps"
 	"github.com/robertkrimen/otto"
 )
 

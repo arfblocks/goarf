@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tayfunakcay/goArf/rpc"
-	"github.com/tayfunakcay/goArf/swarm"
-	"github.com/tayfunakcay/goArf/swarm/api"
+	"github.com/arfblocks/goarf/rpc"
+	"github.com/arfblocks/goarf/swarm"
+	"github.com/arfblocks/goarf/swarm/api"
 
 	"github.com/docker/docker/pkg/reexec"
 )

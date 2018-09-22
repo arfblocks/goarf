@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/metrics"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/metrics"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/filter"

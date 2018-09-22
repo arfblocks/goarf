@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/common/mclock"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/common/mclock"
 )
 
 func TestTopicRadius(t *testing.T) {

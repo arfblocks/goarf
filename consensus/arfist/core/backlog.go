@@ -17,7 +17,7 @@
 package core
 
 import (
-	"github.com/tayfunakcay/goArf/consensus/arfist"
+	"github.com/arfblocks/goarf/consensus/arfist"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

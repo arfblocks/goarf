@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/tayfunakcay/goArf/common/math"
-	"github.com/tayfunakcay/goArf/params"
+	"github.com/arfblocks/goarf/common/math"
+	"github.com/arfblocks/goarf/params"
 )
 
 // Config are the configuration options for the Interpreter

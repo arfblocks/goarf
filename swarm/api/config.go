@@ -22,14 +22,14 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/contracts/ens"
-	"github.com/tayfunakcay/goArf/crypto"
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/node"
-	"github.com/tayfunakcay/goArf/swarm/network"
-	"github.com/tayfunakcay/goArf/swarm/services/swap"
-	"github.com/tayfunakcay/goArf/swarm/storage"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/contracts/ens"
+	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/node"
+	"github.com/arfblocks/goarf/swarm/network"
+	"github.com/arfblocks/goarf/swarm/services/swap"
+	"github.com/arfblocks/goarf/swarm/storage"
 )
 
 const (

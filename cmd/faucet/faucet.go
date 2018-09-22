@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tayfunakcay/goArf/accounts"
-	"github.com/tayfunakcay/goArf/accounts/keystore"
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/core"
-	"github.com/tayfunakcay/goArf/core/types"
-	"github.com/tayfunakcay/goArf/eth"
-	"github.com/tayfunakcay/goArf/eth/downloader"
-	"github.com/tayfunakcay/goArf/ethclient"
-	"github.com/tayfunakcay/goArf/ethstats"
-	"github.com/tayfunakcay/goArf/les"
-	"github.com/tayfunakcay/goArf/log"
-	"github.com/tayfunakcay/goArf/node"
-	"github.com/tayfunakcay/goArf/p2p"
-	"github.com/tayfunakcay/goArf/p2p/discover"
-	"github.com/tayfunakcay/goArf/p2p/discv5"
-	"github.com/tayfunakcay/goArf/p2p/nat"
-	"github.com/tayfunakcay/goArf/params"
+	"github.com/arfblocks/goarf/accounts"
+	"github.com/arfblocks/goarf/accounts/keystore"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/core"
+	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goarf/eth"
+	"github.com/arfblocks/goarf/eth/downloader"
+	"github.com/arfblocks/goarf/ethclient"
+	"github.com/arfblocks/goarf/ethstats"
+	"github.com/arfblocks/goarf/les"
+	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goarf/node"
+	"github.com/arfblocks/goarf/p2p"
+	"github.com/arfblocks/goarf/p2p/discover"
+	"github.com/arfblocks/goarf/p2p/discv5"
+	"github.com/arfblocks/goarf/p2p/nat"
+	"github.com/arfblocks/goarf/params"
 	"golang.org/x/net/websocket"
 )
 
@@ -450,7 +450,7 @@ func (f *faucet) apiHandler(conn *websocket.Conn) {
 		case *noauthFlag:
 			username, avatar, address, err = authNoAuth(msg.URL)
 		default:
-			err = errors.New("Something funky happened, please open an issue at https://github.com/tayfunakcay/goArf/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/arfblocks/goarf/issues")
 		}
 		if err != nil {
 			if err = sendError(conn, err); err != nil {

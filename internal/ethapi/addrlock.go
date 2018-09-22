@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/tayfunakcay/goArf/common"
+	"github.com/arfblocks/goarf/common"
 )
 
 type AddrLocker struct {

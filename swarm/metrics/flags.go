@@ -19,10 +19,10 @@ package metrics
 import (
 	"time"
 
-	"github.com/tayfunakcay/goArf/cmd/utils"
-	"github.com/tayfunakcay/goArf/log"
-	gethmetrics "github.com/tayfunakcay/goArf/metrics"
-	"github.com/tayfunakcay/goArf/metrics/influxdb"
+	"github.com/arfblocks/goarf/cmd/utils"
+	"github.com/arfblocks/goarf/log"
+	gethmetrics "github.com/arfblocks/goarf/metrics"
+	"github.com/arfblocks/goarf/metrics/influxdb"
 	"gopkg.in/urfave/cli.v1"
 )
 

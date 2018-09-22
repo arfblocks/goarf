@@ -22,8 +22,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/tayfunakcay/goArf/common"
-	"github.com/tayfunakcay/goArf/consensus/arfist"
+	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goarf/consensus/arfist"
 )
 
 // Construct a new message set to accumulate messages for given sequence/view number.

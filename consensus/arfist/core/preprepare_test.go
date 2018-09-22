@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tayfunakcay/goArf/consensus/arfist"
+	"github.com/arfblocks/goarf/consensus/arfist"
 )
 
 func newTestPreprepare(v *arfist.View) *arfist.Preprepare {
