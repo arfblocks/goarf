@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/crypto/sha3"
-	"github.com/arfblocks/goarf/ethdb"
-	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/crypto/sha3"
+	"github.com/arfblocks/goArf/ethdb"
+	"github.com/arfblocks/goArf/rlp"
 )
 
 // Tests block header storage and retrieval operations.

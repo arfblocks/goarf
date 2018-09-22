@@ -22,10 +22,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/p2p"
-	"github.com/arfblocks/goarf/p2p/discover"
-	"github.com/arfblocks/goarf/p2p/simulations/adapters"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/p2p"
+	"github.com/arfblocks/goArf/p2p/discover"
+	"github.com/arfblocks/goArf/p2p/simulations/adapters"
 )
 
 var errTimedOut = errors.New("timed out")

@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/common/hexutil"
-	"github.com/arfblocks/goarf/common/math"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/common/hexutil"
+	"github.com/arfblocks/goArf/common/math"
 )
 
 var _ = (*structLogMarshaling)(nil)

@@ -23,7 +23,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/arfblocks/goarf/common/hexutil"
+	"github.com/arfblocks/goArf/common/hexutil"
 	"gopkg.in/fatih/set.v0"
 )
 

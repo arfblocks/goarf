@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/arfblocks/goarf/common/hexutil"
-	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goArf/common/hexutil"
+	"github.com/arfblocks/goArf/crypto"
 )
 
 type bytesBacked interface {

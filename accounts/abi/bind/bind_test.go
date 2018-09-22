@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goArf/common"
 	"golang.org/x/tools/imports"
 )
 

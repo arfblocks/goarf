@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/arfblocks/goarf/common/math"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/params"
+	"github.com/arfblocks/goArf/common/math"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/params"
 )
 
 type diffTest struct {

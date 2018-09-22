@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goArf/common"
 )
 
 func TestSet(t *testing.T) {

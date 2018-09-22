@@ -27,8 +27,8 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/crypto"
 )
 
 type nullTransport struct{}

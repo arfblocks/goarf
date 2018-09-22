@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/arfblocks/goarf/core/vm"
+	"github.com/arfblocks/goArf/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

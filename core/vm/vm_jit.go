@@ -38,9 +38,9 @@ import (
 	"math/big"
 	"unsafe"
 
-	"github.com/arfblocks/goarf/core/state"
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/params"
+	"github.com/arfblocks/goArf/core/state"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/params"
 )
 
 type JitVm struct {

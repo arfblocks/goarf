@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/p2p"
-	"github.com/arfblocks/goarf/rpc"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/p2p"
+	"github.com/arfblocks/goArf/rpc"
 )
 
 var (

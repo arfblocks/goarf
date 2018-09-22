@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/consensus/arfist"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/consensus/arfist"
 )
 
 // Start implements core.Engine.Start

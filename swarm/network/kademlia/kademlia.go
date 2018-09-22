@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/metrics"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/metrics"
 )
 
 //metrics variables

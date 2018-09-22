@@ -25,15 +25,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/common/hexutil"
-	"github.com/arfblocks/goarf/common/math"
-	"github.com/arfblocks/goarf/core"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/core/vm"
-	"github.com/arfblocks/goarf/ethdb"
-	"github.com/arfblocks/goarf/rlp"
-	"github.com/arfblocks/goarf/tests"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/common/hexutil"
+	"github.com/arfblocks/goArf/common/math"
+	"github.com/arfblocks/goArf/core"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/core/vm"
+	"github.com/arfblocks/goArf/ethdb"
+	"github.com/arfblocks/goArf/rlp"
+	"github.com/arfblocks/goArf/tests"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

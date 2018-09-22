@@ -17,9 +17,9 @@
 package eth
 
 import (
-	"github.com/arfblocks/goarf/consensus"
-	"github.com/arfblocks/goarf/metrics"
-	"github.com/arfblocks/goarf/p2p"
+	"github.com/arfblocks/goArf/consensus"
+	"github.com/arfblocks/goArf/metrics"
+	"github.com/arfblocks/goArf/p2p"
 )
 
 var (

@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/arfblocks/goarf/metrics"
+	"github.com/arfblocks/goArf/metrics"
 )
 
 // a regexp for extracting the unit from time.Duration.String

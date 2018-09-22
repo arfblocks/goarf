@@ -21,9 +21,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/params"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/params"
 )
 
 // emptyCodeHash is used by create to ensure deployment is disallowed to already

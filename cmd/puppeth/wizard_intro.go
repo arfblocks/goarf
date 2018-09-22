@@ -26,7 +26,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/log"
 )
 
 // makeWizard creates and returns a new puppeth wizard.

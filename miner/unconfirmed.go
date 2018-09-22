@@ -20,9 +20,9 @@ import (
 	"container/ring"
 	"sync"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/log"
 )
 
 // headerRetriever is used by the unconfirmed block set to verify whether a previously

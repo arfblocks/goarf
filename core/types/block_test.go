@@ -23,8 +23,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/rlp"
 )
 
 // from bcValidBlockTest.json, "SimpleTx"

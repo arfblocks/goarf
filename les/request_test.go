@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core"
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/eth"
-	"github.com/arfblocks/goarf/ethdb"
-	"github.com/arfblocks/goarf/light"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/eth"
+	"github.com/arfblocks/goArf/ethdb"
+	"github.com/arfblocks/goArf/light"
 )
 
 var testBankSecureTrieKey = secAddr(testBankAddress)

@@ -5,7 +5,7 @@ ENV PATH=/usr/lib/go-1.9/bin:$PATH
 RUN \
   apt-get update && apt-get upgrade -q -y && \
   apt-get install -y --no-install-recommends golang-1.9 git make gcc libc-dev ca-certificates && \
-  git clone --depth 1 --branch release/1.8 https://github.com/arfblocks/goarf && \
+  git clone --depth 1 --branch release/1.8 https://github.com/arfblocks/goArf && \
   (cd goArf && make geth) && \
   cp goArf/build/bin/geth /geth && \
   apt-get remove -y golang-1.9 git make gcc libc-dev && apt autoremove -y && apt-get clean && \

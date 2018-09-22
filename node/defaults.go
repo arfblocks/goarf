@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/arfblocks/goarf/p2p"
-	"github.com/arfblocks/goarf/p2p/nat"
+	"github.com/arfblocks/goArf/p2p"
+	"github.com/arfblocks/goArf/p2p/nat"
 )
 
 const (

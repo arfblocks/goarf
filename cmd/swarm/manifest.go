@@ -24,9 +24,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/arfblocks/goarf/cmd/utils"
-	"github.com/arfblocks/goarf/swarm/api"
-	swarm "github.com/arfblocks/goarf/swarm/api/client"
+	"github.com/arfblocks/goArf/cmd/utils"
+	"github.com/arfblocks/goArf/swarm/api"
+	swarm "github.com/arfblocks/goArf/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

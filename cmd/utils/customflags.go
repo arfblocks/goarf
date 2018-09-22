@@ -27,7 +27,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/arfblocks/goarf/common/math"
+	"github.com/arfblocks/goArf/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

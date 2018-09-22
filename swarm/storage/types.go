@@ -24,9 +24,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/arfblocks/goarf/bmt"
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/crypto/sha3"
+	"github.com/arfblocks/goArf/bmt"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/crypto/sha3"
 )
 
 type Hasher func() hash.Hash

@@ -26,14 +26,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arfblocks/goarf/accounts/abi/bind"
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/contracts/chequebook"
-	"github.com/arfblocks/goarf/contracts/chequebook/contract"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/swarm/services/swap/swap"
+	"github.com/arfblocks/goArf/accounts/abi/bind"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/contracts/chequebook"
+	"github.com/arfblocks/goArf/contracts/chequebook/contract"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/swarm/services/swap/swap"
 )
 
 // SwAP       Swarm Accounting Protocol with

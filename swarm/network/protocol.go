@@ -37,13 +37,13 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/arfblocks/goarf/contracts/chequebook"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/metrics"
-	"github.com/arfblocks/goarf/p2p"
-	bzzswap "github.com/arfblocks/goarf/swarm/services/swap"
-	"github.com/arfblocks/goarf/swarm/services/swap/swap"
-	"github.com/arfblocks/goarf/swarm/storage"
+	"github.com/arfblocks/goArf/contracts/chequebook"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/metrics"
+	"github.com/arfblocks/goArf/p2p"
+	bzzswap "github.com/arfblocks/goArf/swarm/services/swap"
+	"github.com/arfblocks/goArf/swarm/services/swap/swap"
+	"github.com/arfblocks/goArf/swarm/storage"
 )
 
 //metrics variables

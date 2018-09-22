@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/rlp"
-	"github.com/arfblocks/goarf/trie"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/rlp"
+	"github.com/arfblocks/goArf/trie"
 )
 
 // NodeIterator is an iterator to traverse the entire state trie post-order,

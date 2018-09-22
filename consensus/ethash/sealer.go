@@ -24,10 +24,10 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/consensus"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/consensus"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/log"
 )
 
 // Seal implements consensus.Engine, attempting to find a nonce that satisfies

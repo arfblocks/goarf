@@ -21,8 +21,8 @@ package geth
 import (
 	"math/big"
 
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/ethclient"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/ethclient"
 )
 
 // EthereumClient provides access to the Ethereum APIs.

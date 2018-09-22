@@ -21,11 +21,11 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core"
-	"github.com/arfblocks/goarf/ethdb"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core"
+	"github.com/arfblocks/goArf/ethdb"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/rlp"
 )
 
 var deduplicateData = []byte("dbUpgrade_20170714deduplicateData")

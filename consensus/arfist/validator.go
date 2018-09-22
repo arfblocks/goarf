@@ -19,7 +19,7 @@ package arfist
 import (
 	"strings"
 
-	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goArf/common"
 )
 
 type Validator interface {

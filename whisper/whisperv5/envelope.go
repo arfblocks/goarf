@@ -26,11 +26,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/common/math"
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/crypto/ecies"
-	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/common/math"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/crypto/ecies"
+	"github.com/arfblocks/goArf/rlp"
 )
 
 // Envelope represents a clear-text data packet to transmit through the Whisper

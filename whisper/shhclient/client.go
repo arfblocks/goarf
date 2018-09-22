@@ -19,10 +19,10 @@ package shhclient
 import (
 	"context"
 
-	"github.com/arfblocks/goarf"
-	"github.com/arfblocks/goarf/common/hexutil"
-	"github.com/arfblocks/goarf/rpc"
-	whisper "github.com/arfblocks/goarf/whisper/whisperv5"
+	"github.com/arfblocks/goArf"
+	"github.com/arfblocks/goArf/common/hexutil"
+	"github.com/arfblocks/goArf/rpc"
+	whisper "github.com/arfblocks/goArf/whisper/whisperv5"
 )
 
 // Client defines typed wrappers for the Whisper v5 RPC API.

@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	ethereum "github.com/arfblocks/goarf"
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/event"
-	"github.com/arfblocks/goarf/rpc"
+	ethereum "github.com/arfblocks/goArf"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/event"
+	"github.com/arfblocks/goArf/rpc"
 )
 
 // Type determines the kind of filter and is used to put the filter in to

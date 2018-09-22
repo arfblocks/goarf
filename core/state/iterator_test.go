@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/ethdb"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/ethdb"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

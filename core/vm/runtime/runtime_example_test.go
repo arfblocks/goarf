@@ -19,8 +19,8 @@ package runtime_test
 import (
 	"fmt"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core/vm/runtime"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core/vm/runtime"
 )
 
 func ExampleExecute() {

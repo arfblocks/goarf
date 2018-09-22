@@ -21,7 +21,7 @@ package dashboard
 import (
 	"syscall"
 
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/log"
 )
 
 // getProcessCPUTime retrieves the process' CPU time since program startup.

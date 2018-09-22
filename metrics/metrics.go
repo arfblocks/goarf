@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/log"
 )
 
 // Enabled is checked by the constructor functions for all of the

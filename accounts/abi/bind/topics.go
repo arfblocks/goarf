@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/arfblocks/goarf/accounts/abi"
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goArf/accounts/abi"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/crypto"
 )
 
 // makeTopics converts a filter query argument list into a filter topic set.

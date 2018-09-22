@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arfblocks/goarf/consensus/ethash"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/core/vm"
-	"github.com/arfblocks/goarf/ethdb"
-	"github.com/arfblocks/goarf/params"
+	"github.com/arfblocks/goArf/consensus/ethash"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/core/vm"
+	"github.com/arfblocks/goArf/ethdb"
+	"github.com/arfblocks/goArf/params"
 )
 
 // Tests that simple header verification works, for both good and bad blocks.

@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core/types"
 )
 
 // StateDB is an EVM database for full state querying.

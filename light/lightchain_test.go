@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/consensus/ethash"
-	"github.com/arfblocks/goarf/core"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/ethdb"
-	"github.com/arfblocks/goarf/params"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/consensus/ethash"
+	"github.com/arfblocks/goArf/core"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/ethdb"
+	"github.com/arfblocks/goArf/params"
 )
 
 // So we can deterministically seed different blockchains

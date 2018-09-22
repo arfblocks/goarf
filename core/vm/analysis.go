@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goArf/common"
 )
 
 // destinations stores one map per contract (keyed by hash of code).

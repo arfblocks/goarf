@@ -22,11 +22,11 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/internal/ethapi"
-	"github.com/arfblocks/goarf/params"
-	"github.com/arfblocks/goarf/rpc"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/internal/ethapi"
+	"github.com/arfblocks/goArf/params"
+	"github.com/arfblocks/goArf/rpc"
 )
 
 var maxPrice = big.NewInt(500 * params.Shannon)

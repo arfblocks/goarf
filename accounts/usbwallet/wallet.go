@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	ethereum "github.com/arfblocks/goarf"
-	"github.com/arfblocks/goarf/accounts"
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/log"
+	ethereum "github.com/arfblocks/goArf"
+	"github.com/arfblocks/goArf/accounts"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/log"
 	"github.com/karalabe/hid"
 )
 

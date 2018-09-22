@@ -26,9 +26,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/swarm/storage"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/swarm/storage"
 )
 
 const maxParallelFiles = 5

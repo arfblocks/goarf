@@ -23,12 +23,12 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/rlp"
-	"github.com/arfblocks/goarf/trie"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/rlp"
+	"github.com/arfblocks/goArf/trie"
 )
 
 type revision struct {

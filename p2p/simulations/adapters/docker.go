@@ -28,9 +28,9 @@ import (
 	"strings"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/node"
-	"github.com/arfblocks/goarf/p2p/discover"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/node"
+	"github.com/arfblocks/goArf/p2p/discover"
 )
 
 // DockerAdapter is a NodeAdapter which runs simulation nodes inside Docker

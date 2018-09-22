@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/arfblocks/goarf/core/asm"
+	"github.com/arfblocks/goArf/core/asm"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

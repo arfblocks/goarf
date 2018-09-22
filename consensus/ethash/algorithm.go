@@ -27,11 +27,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/common/bitutil"
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/crypto/sha3"
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/common/bitutil"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/crypto/sha3"
+	"github.com/arfblocks/goArf/log"
 )
 
 const (

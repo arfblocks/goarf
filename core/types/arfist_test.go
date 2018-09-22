@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/common/hexutil"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/common/hexutil"
 )
 
 func TestHeaderHash(t *testing.T) {

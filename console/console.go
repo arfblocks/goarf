@@ -28,9 +28,9 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/arfblocks/goarf/internal/jsre"
-	"github.com/arfblocks/goarf/internal/web3ext"
-	"github.com/arfblocks/goarf/rpc"
+	"github.com/arfblocks/goArf/internal/jsre"
+	"github.com/arfblocks/goArf/internal/web3ext"
+	"github.com/arfblocks/goArf/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 	"github.com/robertkrimen/otto"

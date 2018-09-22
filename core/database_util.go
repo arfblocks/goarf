@@ -24,13 +24,13 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/ethdb"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/metrics"
-	"github.com/arfblocks/goarf/params"
-	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/ethdb"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/metrics"
+	"github.com/arfblocks/goArf/params"
+	"github.com/arfblocks/goArf/rlp"
 )
 
 // DatabaseReader wraps the Get method of a backing data store.

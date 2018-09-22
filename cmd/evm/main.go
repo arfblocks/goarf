@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/arfblocks/goarf/cmd/utils"
+	"github.com/arfblocks/goArf/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

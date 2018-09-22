@@ -24,12 +24,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/arfblocks/goarf"
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/common/hexutil"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/rlp"
-	"github.com/arfblocks/goarf/rpc"
+	"github.com/arfblocks/goArf"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/common/hexutil"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/rlp"
+	"github.com/arfblocks/goArf/rpc"
 )
 
 // Client defines typed wrappers for the Ethereum RPC API.

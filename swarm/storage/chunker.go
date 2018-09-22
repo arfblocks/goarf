@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arfblocks/goarf/metrics"
+	"github.com/arfblocks/goArf/metrics"
 )
 
 /*

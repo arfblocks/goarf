@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arfblocks/goarf/common/mclock"
+	"github.com/arfblocks/goArf/common/mclock"
 )
 
 const rcConst = 1000000

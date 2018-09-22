@@ -29,7 +29,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/log"
 	"golang.org/x/net/websocket"
 	"gopkg.in/fatih/set.v0"
 )

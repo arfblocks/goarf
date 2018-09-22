@@ -34,8 +34,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/arfblocks/goarf/core"
-	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goArf/core"
+	"github.com/arfblocks/goArf/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

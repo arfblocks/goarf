@@ -21,8 +21,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/consensus/arfist"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/consensus/arfist"
 )
 
 func newTestRoundState(view *arfist.View, validatorSet arfist.ValidatorSet) *roundState {

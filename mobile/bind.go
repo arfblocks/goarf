@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/arfblocks/goarf/accounts/abi"
-	"github.com/arfblocks/goarf/accounts/abi/bind"
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goArf/accounts/abi"
+	"github.com/arfblocks/goArf/accounts/abi/bind"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core/types"
 )
 
 // Signer is an interaface defining the callback when a contract requires a

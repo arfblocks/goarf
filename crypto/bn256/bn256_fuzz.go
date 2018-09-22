@@ -22,8 +22,8 @@ import (
 	"bytes"
 	"math/big"
 
-	cloudflare "github.com/arfblocks/goarf/crypto/bn256/cloudflare"
-	google "github.com/arfblocks/goarf/crypto/bn256/google"
+	cloudflare "github.com/arfblocks/goArf/crypto/bn256/cloudflare"
+	google "github.com/arfblocks/goArf/crypto/bn256/google"
 )
 
 // FuzzAdd fuzzez bn256 addition between the Google and Cloudflare libraries.

@@ -24,13 +24,13 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/common/math"
-	"github.com/arfblocks/goarf/consensus"
-	"github.com/arfblocks/goarf/consensus/misc"
-	"github.com/arfblocks/goarf/core/state"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/params"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/common/math"
+	"github.com/arfblocks/goArf/consensus"
+	"github.com/arfblocks/goArf/consensus/misc"
+	"github.com/arfblocks/goArf/core/state"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/params"
 	set "gopkg.in/fatih/set.v0"
 )
 

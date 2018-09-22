@@ -27,12 +27,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/arfblocks/goarf/accounts"
-	"github.com/arfblocks/goarf/accounts/usbwallet/internal/trezor"
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/common/hexutil"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/accounts"
+	"github.com/arfblocks/goArf/accounts/usbwallet/internal/trezor"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/common/hexutil"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/log"
 	"github.com/golang/protobuf/proto"
 )
 

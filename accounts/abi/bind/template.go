@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/arfblocks/goarf/accounts/abi"
+import "github.com/arfblocks/goArf/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {

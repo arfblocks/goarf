@@ -22,8 +22,8 @@ package node
 import (
 	"reflect"
 
-	"github.com/arfblocks/goarf/p2p"
-	"github.com/arfblocks/goarf/rpc"
+	"github.com/arfblocks/goArf/p2p"
+	"github.com/arfblocks/goArf/rpc"
 )
 
 // NoopService is a trivial implementation of the Service interface.

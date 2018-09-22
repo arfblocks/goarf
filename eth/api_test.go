@@ -21,9 +21,9 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core/state"
-	"github.com/arfblocks/goarf/ethdb"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core/state"
+	"github.com/arfblocks/goArf/ethdb"
 )
 
 var dumper = spew.ConfigState{Indent: "    "}

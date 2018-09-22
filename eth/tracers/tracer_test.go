@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core/vm"
-	"github.com/arfblocks/goarf/params"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core/vm"
+	"github.com/arfblocks/goArf/params"
 )
 
 type account struct{}

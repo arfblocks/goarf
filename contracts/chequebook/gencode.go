@@ -25,11 +25,11 @@ import (
 	"io/ioutil"
 	"math/big"
 
-	"github.com/arfblocks/goarf/accounts/abi/bind"
-	"github.com/arfblocks/goarf/accounts/abi/bind/backends"
-	"github.com/arfblocks/goarf/contracts/chequebook/contract"
-	"github.com/arfblocks/goarf/core"
-	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goArf/accounts/abi/bind"
+	"github.com/arfblocks/goArf/accounts/abi/bind/backends"
+	"github.com/arfblocks/goArf/contracts/chequebook/contract"
+	"github.com/arfblocks/goArf/core"
+	"github.com/arfblocks/goArf/crypto"
 )
 
 var (

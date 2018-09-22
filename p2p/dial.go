@@ -24,9 +24,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/p2p/discover"
-	"github.com/arfblocks/goarf/p2p/netutil"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/p2p/discover"
+	"github.com/arfblocks/goArf/p2p/netutil"
 )
 
 const (

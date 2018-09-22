@@ -19,7 +19,7 @@ package downloader
 import (
 	"fmt"
 
-	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goArf/core/types"
 )
 
 // peerDropFn is a callback type for dropping a peer detected as malicious.

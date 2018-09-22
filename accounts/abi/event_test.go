@@ -25,8 +25,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/crypto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -244,7 +244,7 @@ func unpackTestEventData(dest interface{}, hexData string, jsonEvent []byte, ass
 
 /*
 Taken from
-https://github.com/arfblocks/goarf/pull/15568
+https://github.com/arfblocks/goArf/pull/15568
 */
 
 type testResult struct {

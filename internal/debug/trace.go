@@ -23,7 +23,7 @@ import (
 	"os"
 	"runtime/trace"
 
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/log"
 )
 
 // StartGoTrace turns on tracing, writing to the given file.

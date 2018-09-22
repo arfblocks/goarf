@@ -32,9 +32,9 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/metrics"
-	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/metrics"
+	"github.com/arfblocks/goArf/rlp"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/iterator"
 )

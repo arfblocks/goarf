@@ -23,13 +23,13 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/arfblocks/goarf/consensus/ethash"
-	"github.com/arfblocks/goarf/core"
-	"github.com/arfblocks/goarf/core/state"
-	"github.com/arfblocks/goarf/core/vm"
-	"github.com/arfblocks/goarf/ethdb"
-	"github.com/arfblocks/goarf/params"
-	"github.com/arfblocks/goarf/trie"
+	"github.com/arfblocks/goArf/consensus/ethash"
+	"github.com/arfblocks/goArf/core"
+	"github.com/arfblocks/goArf/core/state"
+	"github.com/arfblocks/goArf/core/vm"
+	"github.com/arfblocks/goArf/ethdb"
+	"github.com/arfblocks/goArf/params"
+	"github.com/arfblocks/goArf/trie"
 )
 
 func TestNodeIterator(t *testing.T) {

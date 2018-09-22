@@ -21,9 +21,9 @@ package geth
 import (
 	"encoding/json"
 
-	"github.com/arfblocks/goarf/core"
-	"github.com/arfblocks/goarf/p2p/discv5"
-	"github.com/arfblocks/goarf/params"
+	"github.com/arfblocks/goArf/core"
+	"github.com/arfblocks/goArf/p2p/discv5"
+	"github.com/arfblocks/goArf/params"
 )
 
 // MainnetGenesis returns the JSON spec to use for the main Ethereum network. It

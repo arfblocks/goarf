@@ -40,7 +40,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goArf/crypto"
 )
 
 var dumpEnc bool

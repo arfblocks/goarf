@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/consensus/arfist"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/consensus/arfist"
 )
 
 // notice: the normal case have been tested in integration tests.

@@ -29,9 +29,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/event"
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/event"
+	"github.com/arfblocks/goArf/log"
 )
 
 const (

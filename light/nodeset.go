@@ -20,10 +20,10 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/ethdb"
-	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/ethdb"
+	"github.com/arfblocks/goArf/rlp"
 )
 
 // NodeSet stores a set of trie nodes. It implements trie.Database and can also

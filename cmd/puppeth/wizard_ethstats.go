@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/log"
 )
 
 // deployEthstats queries the user for various input on deploying an ethstats

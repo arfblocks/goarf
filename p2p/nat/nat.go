@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/log"
 	"github.com/jackpal/go-nat-pmp"
 )
 

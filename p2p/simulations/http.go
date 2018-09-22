@@ -29,11 +29,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/arfblocks/goarf/event"
-	"github.com/arfblocks/goarf/p2p"
-	"github.com/arfblocks/goarf/p2p/discover"
-	"github.com/arfblocks/goarf/p2p/simulations/adapters"
-	"github.com/arfblocks/goarf/rpc"
+	"github.com/arfblocks/goArf/event"
+	"github.com/arfblocks/goArf/p2p"
+	"github.com/arfblocks/goArf/p2p/discover"
+	"github.com/arfblocks/goArf/p2p/simulations/adapters"
+	"github.com/arfblocks/goArf/rpc"
 	"github.com/julienschmidt/httprouter"
 	"golang.org/x/net/websocket"
 )

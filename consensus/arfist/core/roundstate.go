@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/consensus/arfist"
-	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/consensus/arfist"
+	"github.com/arfblocks/goArf/rlp"
 )
 
 // newRoundState creates a new roundState instance with the given view and validatorSet

@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/arfblocks/goarf/accounts"
-	"github.com/arfblocks/goarf/accounts/keystore"
-	"github.com/arfblocks/goarf/cmd/utils"
-	"github.com/arfblocks/goarf/console"
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/accounts"
+	"github.com/arfblocks/goArf/accounts/keystore"
+	"github.com/arfblocks/goArf/cmd/utils"
+	"github.com/arfblocks/goArf/console"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

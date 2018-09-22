@@ -26,12 +26,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/consensus/ethash"
-	"github.com/arfblocks/goarf/core"
-	"github.com/arfblocks/goarf/eth"
-	"github.com/arfblocks/goarf/internal/jsre"
-	"github.com/arfblocks/goarf/node"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/consensus/ethash"
+	"github.com/arfblocks/goArf/core"
+	"github.com/arfblocks/goArf/eth"
+	"github.com/arfblocks/goArf/internal/jsre"
+	"github.com/arfblocks/goArf/node"
 )
 
 const (

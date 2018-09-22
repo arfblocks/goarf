@@ -26,11 +26,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/swarm/api"
-	swarm "github.com/arfblocks/goarf/swarm/api/client"
-	"github.com/arfblocks/goarf/swarm/storage"
-	"github.com/arfblocks/goarf/swarm/testutil"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/swarm/api"
+	swarm "github.com/arfblocks/goArf/swarm/api/client"
+	"github.com/arfblocks/goArf/swarm/storage"
+	"github.com/arfblocks/goArf/swarm/testutil"
 )
 
 func TestBzzGetPath(t *testing.T) {

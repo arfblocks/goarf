@@ -23,10 +23,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/arfblocks/goarf/core/state"
-	"github.com/arfblocks/goarf/core/vm"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/tests"
+	"github.com/arfblocks/goArf/core/state"
+	"github.com/arfblocks/goArf/core/vm"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/tests"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

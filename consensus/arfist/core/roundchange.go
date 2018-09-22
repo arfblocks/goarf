@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/consensus/arfist"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/consensus/arfist"
 )
 
 // sendNextRoundChange sends the ROUND CHANGE message with current round + 1

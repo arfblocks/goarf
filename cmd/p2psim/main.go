@@ -45,12 +45,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/p2p"
-	"github.com/arfblocks/goarf/p2p/discover"
-	"github.com/arfblocks/goarf/p2p/simulations"
-	"github.com/arfblocks/goarf/p2p/simulations/adapters"
-	"github.com/arfblocks/goarf/rpc"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/p2p"
+	"github.com/arfblocks/goArf/p2p/discover"
+	"github.com/arfblocks/goArf/p2p/simulations"
+	"github.com/arfblocks/goArf/p2p/simulations/adapters"
+	"github.com/arfblocks/goArf/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

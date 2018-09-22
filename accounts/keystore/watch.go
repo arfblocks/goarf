@@ -21,7 +21,7 @@ package keystore
 import (
 	"time"
 
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/log"
 	"github.com/rjeczalik/notify"
 )
 

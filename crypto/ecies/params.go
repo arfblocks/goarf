@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/arfblocks/goarf/crypto"
+	ethcrypto "github.com/arfblocks/goArf/crypto"
 )
 
 var (

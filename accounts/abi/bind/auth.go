@@ -22,10 +22,10 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/arfblocks/goarf/accounts/keystore"
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goArf/accounts/keystore"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/crypto"
 )
 
 // NewTransactor is a utility method to easily create a transaction signer from

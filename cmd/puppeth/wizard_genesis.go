@@ -25,10 +25,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/params"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/params"
 )
 
 // makeGenesis creates a new genesis struct based on some user input.

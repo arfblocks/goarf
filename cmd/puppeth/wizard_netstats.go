@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/arfblocks/goarf/core"
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/core"
+	"github.com/arfblocks/goArf/log"
 	"github.com/olekukonko/tablewriter"
 )
 

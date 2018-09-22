@@ -25,11 +25,11 @@ import (
 	"os"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/node"
-	"github.com/arfblocks/goarf/p2p"
-	"github.com/arfblocks/goarf/p2p/discover"
-	"github.com/arfblocks/goarf/rpc"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/node"
+	"github.com/arfblocks/goArf/p2p"
+	"github.com/arfblocks/goArf/p2p/discover"
+	"github.com/arfblocks/goArf/rpc"
 )
 
 // Node represents a node in a simulation network which is created by a

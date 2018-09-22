@@ -21,11 +21,11 @@ import (
 	"errors"
 	"math"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/common/hexutil"
-	"github.com/arfblocks/goarf/consensus/ethash"
-	"github.com/arfblocks/goarf/core"
-	"github.com/arfblocks/goarf/params"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/common/hexutil"
+	"github.com/arfblocks/goArf/consensus/ethash"
+	"github.com/arfblocks/goArf/core"
+	"github.com/arfblocks/goArf/params"
 )
 
 // cppEthereumGenesisSpec represents the genesis specification format used by the

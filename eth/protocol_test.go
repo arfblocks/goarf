@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/eth/downloader"
-	"github.com/arfblocks/goarf/p2p"
-	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/eth/downloader"
+	"github.com/arfblocks/goArf/p2p"
+	"github.com/arfblocks/goArf/rlp"
 )
 
 func init() {

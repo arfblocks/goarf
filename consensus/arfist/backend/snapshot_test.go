@@ -23,14 +23,14 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/consensus/arfist"
-	"github.com/arfblocks/goarf/consensus/arfist/validator"
-	"github.com/arfblocks/goarf/core"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/core/vm"
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/ethdb"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/consensus/arfist"
+	"github.com/arfblocks/goArf/consensus/arfist/validator"
+	"github.com/arfblocks/goArf/core"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/core/vm"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/ethdb"
 )
 
 type testerVote struct {

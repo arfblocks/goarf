@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arfblocks/goarf/common/mclock"
+	"github.com/arfblocks/goArf/common/mclock"
 )
 
 const fcTimeConst = time.Millisecond

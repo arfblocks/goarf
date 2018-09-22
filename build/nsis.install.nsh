@@ -3,9 +3,9 @@ InstallDir "$InstDir"
 OutFile "${OUTPUTFILE}" # set through command line arguments
 
 # Links for "Add/Remove Programs"
-!define HELPURL "https://github.com/arfblocks/goarf/issues"
-!define UPDATEURL "https://github.com/arfblocks/goarf/releases"
-!define ABOUTURL "https://github.com/arfblocks/goarf#ethereum-go"
+!define HELPURL "https://github.com/arfblocks/goArf/issues"
+!define UPDATEURL "https://github.com/arfblocks/goArf/releases"
+!define ABOUTURL "https://github.com/arfblocks/goArf#ethereum-go"
 !define /date NOW "%Y%m%d"
 
 PageEx license

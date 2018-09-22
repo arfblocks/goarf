@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/swarm/storage"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/swarm/storage"
 )
 
 func init() {

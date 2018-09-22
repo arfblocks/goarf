@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arfblocks/goarf/accounts/keystore"
-	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goArf/accounts/keystore"
+	"github.com/arfblocks/goArf/core/types"
 )
 
 // Tests that the account management snippets work correctly.

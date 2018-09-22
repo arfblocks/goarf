@@ -28,12 +28,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/arfblocks/goarf/accounts"
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/common/hexutil"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goArf/accounts"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/common/hexutil"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/rlp"
 )
 
 // ledgerOpcode is an enumeration encoding the supported Ledger opcodes.

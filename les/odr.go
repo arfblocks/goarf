@@ -19,10 +19,10 @@ package les
 import (
 	"context"
 
-	"github.com/arfblocks/goarf/core"
-	"github.com/arfblocks/goarf/ethdb"
-	"github.com/arfblocks/goarf/light"
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/core"
+	"github.com/arfblocks/goArf/ethdb"
+	"github.com/arfblocks/goArf/light"
+	"github.com/arfblocks/goArf/log"
 )
 
 // LesOdr implements light.OdrBackend

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goArf/crypto"
 )
 
 // Method represents a callable given a `Name` and whether the method is a constant.

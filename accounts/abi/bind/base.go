@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/arfblocks/goarf"
-	"github.com/arfblocks/goarf/accounts/abi"
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/event"
+	"github.com/arfblocks/goArf"
+	"github.com/arfblocks/goArf/accounts/abi"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/event"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to

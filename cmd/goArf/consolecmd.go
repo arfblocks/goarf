@@ -24,10 +24,10 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/arfblocks/goarf/cmd/utils"
-	"github.com/arfblocks/goarf/console"
-	"github.com/arfblocks/goarf/node"
-	"github.com/arfblocks/goarf/rpc"
+	"github.com/arfblocks/goArf/cmd/utils"
+	"github.com/arfblocks/goArf/console"
+	"github.com/arfblocks/goArf/node"
+	"github.com/arfblocks/goArf/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 
@@ -43,7 +43,7 @@ var (
 		Description: `
 The Geth console is an interactive shell for the JavaScript runtime environment
 which exposes a node admin interface as well as the Ðapp JavaScript API.
-See https://github.com/arfblocks/goarf/wiki/JavaScript-Console.`,
+See https://github.com/arfblocks/goArf/wiki/JavaScript-Console.`,
 	}
 
 	attachCommand = cli.Command{
@@ -56,7 +56,7 @@ See https://github.com/arfblocks/goarf/wiki/JavaScript-Console.`,
 		Description: `
 The Geth console is an interactive shell for the JavaScript runtime environment
 which exposes a node admin interface as well as the Ðapp JavaScript API.
-See https://github.com/arfblocks/goarf/wiki/JavaScript-Console.
+See https://github.com/arfblocks/goArf/wiki/JavaScript-Console.
 This command allows to open a console on a running geth node.`,
 	}
 
@@ -69,7 +69,7 @@ This command allows to open a console on a running geth node.`,
 		Category:  "CONSOLE COMMANDS",
 		Description: `
 The JavaScript VM exposes a node admin interface as well as the Ðapp
-JavaScript API. See https://github.com/arfblocks/goarf/wiki/JavaScript-Console`,
+JavaScript API. See https://github.com/arfblocks/goArf/wiki/JavaScript-Console`,
 	}
 )
 

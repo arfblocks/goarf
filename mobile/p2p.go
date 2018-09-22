@@ -21,7 +21,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/arfblocks/goarf/p2p"
+	"github.com/arfblocks/goArf/p2p"
 )
 
 // NodeInfo represents pi short summary of the information known about the host.

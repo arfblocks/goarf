@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/log"
 )
 
 // ensureVirtualHost checks whether a reverse-proxy is running on the specified

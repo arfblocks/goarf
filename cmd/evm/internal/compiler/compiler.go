@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/arfblocks/goarf/core/asm"
+	"github.com/arfblocks/goArf/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

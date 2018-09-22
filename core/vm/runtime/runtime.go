@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core/state"
-	"github.com/arfblocks/goarf/core/vm"
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/ethdb"
-	"github.com/arfblocks/goarf/params"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core/state"
+	"github.com/arfblocks/goArf/core/vm"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/ethdb"
+	"github.com/arfblocks/goArf/params"
 )
 
 // Config is a basic type specifying certain configuration flags for running

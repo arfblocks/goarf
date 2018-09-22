@@ -27,13 +27,13 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/arfblocks/goarf/accounts"
-	"github.com/arfblocks/goarf/accounts/keystore"
-	"github.com/arfblocks/goarf/internal/cmdtest"
-	"github.com/arfblocks/goarf/node"
-	"github.com/arfblocks/goarf/p2p"
-	"github.com/arfblocks/goarf/rpc"
-	"github.com/arfblocks/goarf/swarm"
+	"github.com/arfblocks/goArf/accounts"
+	"github.com/arfblocks/goArf/accounts/keystore"
+	"github.com/arfblocks/goArf/internal/cmdtest"
+	"github.com/arfblocks/goArf/node"
+	"github.com/arfblocks/goArf/p2p"
+	"github.com/arfblocks/goArf/rpc"
+	"github.com/arfblocks/goArf/swarm"
 )
 
 func init() {

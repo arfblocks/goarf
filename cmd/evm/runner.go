@@ -27,16 +27,16 @@ import (
 
 	goruntime "runtime"
 
-	"github.com/arfblocks/goarf/cmd/evm/internal/compiler"
-	"github.com/arfblocks/goarf/cmd/utils"
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core"
-	"github.com/arfblocks/goarf/core/state"
-	"github.com/arfblocks/goarf/core/vm"
-	"github.com/arfblocks/goarf/core/vm/runtime"
-	"github.com/arfblocks/goarf/ethdb"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/params"
+	"github.com/arfblocks/goArf/cmd/evm/internal/compiler"
+	"github.com/arfblocks/goArf/cmd/utils"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core"
+	"github.com/arfblocks/goArf/core/state"
+	"github.com/arfblocks/goArf/core/vm"
+	"github.com/arfblocks/goArf/core/vm/runtime"
+	"github.com/arfblocks/goArf/ethdb"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/params"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

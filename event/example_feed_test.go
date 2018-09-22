@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/arfblocks/goarf/event"
+	"github.com/arfblocks/goArf/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

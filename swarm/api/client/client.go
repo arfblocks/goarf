@@ -33,7 +33,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/arfblocks/goarf/swarm/api"
+	"github.com/arfblocks/goArf/swarm/api"
 )
 
 var (

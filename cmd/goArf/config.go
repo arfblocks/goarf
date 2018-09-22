@@ -27,12 +27,12 @@ import (
 
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/arfblocks/goarf/cmd/utils"
-	"github.com/arfblocks/goarf/dashboard"
-	"github.com/arfblocks/goarf/eth"
-	"github.com/arfblocks/goarf/node"
-	"github.com/arfblocks/goarf/params"
-	whisper "github.com/arfblocks/goarf/whisper/whisperv5"
+	"github.com/arfblocks/goArf/cmd/utils"
+	"github.com/arfblocks/goArf/dashboard"
+	"github.com/arfblocks/goArf/eth"
+	"github.com/arfblocks/goArf/node"
+	"github.com/arfblocks/goArf/params"
+	whisper "github.com/arfblocks/goArf/whisper/whisperv5"
 	"github.com/naoina/toml"
 )
 

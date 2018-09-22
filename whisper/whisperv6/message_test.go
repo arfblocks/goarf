@@ -23,9 +23,9 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"github.com/arfblocks/goarf/common/hexutil"
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goArf/common/hexutil"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/rlp"
 )
 
 func generateMessageParams() (*MessageParams, error) {

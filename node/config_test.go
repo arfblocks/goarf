@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/p2p"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

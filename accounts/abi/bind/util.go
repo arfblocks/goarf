@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/log"
 )
 
 // WaitMined waits for tx to be mined on the blockchain.

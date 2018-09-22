@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/arfblocks/goarf/params"
+	"github.com/arfblocks/goArf/params"
 )
 
 type (

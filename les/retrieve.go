@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arfblocks/goarf/common/mclock"
+	"github.com/arfblocks/goArf/common/mclock"
 )
 
 var (

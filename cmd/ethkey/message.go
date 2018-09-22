@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/arfblocks/goarf/accounts/keystore"
-	"github.com/arfblocks/goarf/cmd/utils"
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goArf/accounts/keystore"
+	"github.com/arfblocks/goArf/cmd/utils"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

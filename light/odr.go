@@ -22,10 +22,10 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/ethdb"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/ethdb"
 )
 
 // NoOdr is the default context passed to an ODR capable function when the ODR

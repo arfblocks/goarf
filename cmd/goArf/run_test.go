@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/arfblocks/goarf/internal/cmdtest"
+	"github.com/arfblocks/goArf/internal/cmdtest"
 )
 
 func tmpdir(t *testing.T) string {

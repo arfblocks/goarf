@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/arfblocks/goarf/consensus/ethash"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/core/vm"
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/ethdb"
-	"github.com/arfblocks/goarf/params"
+	"github.com/arfblocks/goArf/consensus/ethash"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/core/vm"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/ethdb"
+	"github.com/arfblocks/goArf/params"
 )
 
 func ExampleGenerateChain() {

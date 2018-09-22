@@ -19,7 +19,7 @@
 package downloader
 
 import (
-	"github.com/arfblocks/goarf/metrics"
+	"github.com/arfblocks/goArf/metrics"
 )
 
 var (

@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/arfblocks/goarf/accounts/keystore"
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/accounts/keystore"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

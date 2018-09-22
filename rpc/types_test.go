@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/arfblocks/goarf/common/math"
+	"github.com/arfblocks/goArf/common/math"
 )
 
 func TestBlockNumberJSONUnmarshal(t *testing.T) {

@@ -19,10 +19,10 @@ package backend
 import (
 	"testing"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/consensus/arfist"
-	"github.com/arfblocks/goarf/p2p"
-	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/consensus/arfist"
+	"github.com/arfblocks/goArf/p2p"
+	"github.com/arfblocks/goArf/rlp"
 	lru "github.com/hashicorp/golang-lru"
 )
 

@@ -22,13 +22,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/common/mclock"
-	"github.com/arfblocks/goarf/consensus"
-	"github.com/arfblocks/goarf/core"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/light"
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/common/mclock"
+	"github.com/arfblocks/goArf/consensus"
+	"github.com/arfblocks/goArf/core"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/light"
+	"github.com/arfblocks/goArf/log"
 )
 
 const (

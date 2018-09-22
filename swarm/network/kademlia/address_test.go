@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goArf/common"
 )
 
 func (Address) Generate(rand *rand.Rand, size int) reflect.Value {

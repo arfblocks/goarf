@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arfblocks/goarf/accounts/abi/bind"
-	"github.com/arfblocks/goarf/accounts/abi/bind/backends"
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goArf/accounts/abi/bind"
+	"github.com/arfblocks/goArf/accounts/abi/bind/backends"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/crypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

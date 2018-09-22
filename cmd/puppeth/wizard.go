@@ -30,9 +30,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core"
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core"
+	"github.com/arfblocks/goArf/log"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

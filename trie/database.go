@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/ethdb"
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/ethdb"
+	"github.com/arfblocks/goArf/log"
 )
 
 // secureKeyPrefix is the database key prefix used to store trie node preimages.

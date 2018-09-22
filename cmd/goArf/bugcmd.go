@@ -26,10 +26,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/arfblocks/goarf/cmd/internal/browser"
-	"github.com/arfblocks/goarf/params"
+	"github.com/arfblocks/goArf/cmd/internal/browser"
+	"github.com/arfblocks/goArf/params"
 
-	"github.com/arfblocks/goarf/cmd/utils"
+	"github.com/arfblocks/goArf/cmd/utils"
 	cli "gopkg.in/urfave/cli.v1"
 )
 
@@ -41,7 +41,7 @@ var bugCommand = cli.Command{
 	Category:  "MISCELLANEOUS COMMANDS",
 }
 
-const issueUrl = "https://github.com/arfblocks/goarf/issues/new"
+const issueUrl = "https://github.com/arfblocks/goArf/issues/new"
 
 // reportBug reports a bug by opening a new URL to the goArf GH issue
 // tracker and setting default values as the issue body.

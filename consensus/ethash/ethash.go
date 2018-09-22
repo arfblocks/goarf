@@ -33,10 +33,10 @@ import (
 	"unsafe"
 
 	mmap "github.com/edsrzf/mmap-go"
-	"github.com/arfblocks/goarf/consensus"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/metrics"
-	"github.com/arfblocks/goarf/rpc"
+	"github.com/arfblocks/goArf/consensus"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/metrics"
+	"github.com/arfblocks/goArf/rpc"
 	"github.com/hashicorp/golang-lru/simplelru"
 )
 

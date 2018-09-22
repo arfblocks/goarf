@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/log"
 )
 
 // CreateIPCListener creates an listener, on Unix platforms this is a unix socket, on

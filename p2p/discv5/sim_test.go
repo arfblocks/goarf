@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goArf/common"
 )
 
 // In this test, nodes try to randomly resolve each other.

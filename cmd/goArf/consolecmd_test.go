@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arfblocks/goarf/params"
+	"github.com/arfblocks/goArf/params"
 )
 
 const (

@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/common/math"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/common/math"
 )
 
 var (

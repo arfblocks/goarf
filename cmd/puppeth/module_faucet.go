@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/log"
 )
 
 // faucetDockerfile is the Dockerfile required to build an faucet container to

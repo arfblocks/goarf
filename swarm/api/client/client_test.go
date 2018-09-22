@@ -25,8 +25,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/arfblocks/goarf/swarm/api"
-	"github.com/arfblocks/goarf/swarm/testutil"
+	"github.com/arfblocks/goArf/swarm/api"
+	"github.com/arfblocks/goArf/swarm/testutil"
 )
 
 // TestClientUploadDownloadRaw test uploading and downloading raw data to swarm

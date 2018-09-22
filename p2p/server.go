@@ -25,14 +25,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/common/mclock"
-	"github.com/arfblocks/goarf/event"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/p2p/discover"
-	"github.com/arfblocks/goarf/p2p/discv5"
-	"github.com/arfblocks/goarf/p2p/nat"
-	"github.com/arfblocks/goarf/p2p/netutil"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/common/mclock"
+	"github.com/arfblocks/goArf/event"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/p2p/discover"
+	"github.com/arfblocks/goArf/p2p/discv5"
+	"github.com/arfblocks/goArf/p2p/nat"
+	"github.com/arfblocks/goArf/p2p/netutil"
 )
 
 const (

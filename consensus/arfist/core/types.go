@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/rlp"
 )
 
 type Engine interface {

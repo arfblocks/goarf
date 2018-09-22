@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goArf/common"
 )
 
 func TestPack(t *testing.T) {

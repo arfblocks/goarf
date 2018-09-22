@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/common/math"
-	"github.com/arfblocks/goarf/core/vm"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/common/math"
+	"github.com/arfblocks/goArf/core/vm"
 )
 
 type JSONLogger struct {

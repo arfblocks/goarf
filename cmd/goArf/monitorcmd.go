@@ -25,9 +25,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/arfblocks/goarf/cmd/utils"
-	"github.com/arfblocks/goarf/node"
-	"github.com/arfblocks/goarf/rpc"
+	"github.com/arfblocks/goArf/cmd/utils"
+	"github.com/arfblocks/goArf/node"
+	"github.com/arfblocks/goArf/rpc"
 	"github.com/gizak/termui"
 	"gopkg.in/urfave/cli.v1"
 )

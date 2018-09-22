@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goArf/core/types"
 )
 
 // errSectionOutOfBounds is returned if the user tried to add more bloom filters

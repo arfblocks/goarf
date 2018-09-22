@@ -25,9 +25,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/common/hexutil"
-	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/common/hexutil"
+	"github.com/arfblocks/goArf/core/types"
 )
 
 // Tests whether the dataset size calculator works correctly by cross checking the

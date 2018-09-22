@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/log"
 )
 
 // walletDockerfile is the Dockerfile required to run a web wallet.

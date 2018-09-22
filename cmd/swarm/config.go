@@ -28,13 +28,13 @@ import (
 
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/arfblocks/goarf/cmd/utils"
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/node"
+	"github.com/arfblocks/goArf/cmd/utils"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/node"
 	"github.com/naoina/toml"
 
-	bzzapi "github.com/arfblocks/goarf/swarm/api"
+	bzzapi "github.com/arfblocks/goArf/swarm/api"
 )
 
 var (
@@ -84,7 +84,7 @@ var tomlSettings = toml.Config{
 	MissingField: func(rt reflect.Type, field string) error {
 		link := ""
 		if unicode.IsUpper(rune(rt.Name()[0])) && rt.PkgPath() != "main" {
-			link = fmt.Sprintf(", check github.com/arfblocks/goarf/swarm/api/config.go for available fields")
+			link = fmt.Sprintf(", check github.com/arfblocks/goArf/swarm/api/config.go for available fields")
 		}
 		return fmt.Errorf("field '%s' is not defined in %s%s", field, rt.String(), link)
 	},

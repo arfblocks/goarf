@@ -19,7 +19,7 @@ package swarm
 import (
 	"testing"
 
-	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goArf/common"
 )
 
 func TestParseEnsAPIAddress(t *testing.T) {

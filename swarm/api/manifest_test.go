@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/arfblocks/goarf/swarm/storage"
+	"github.com/arfblocks/goArf/swarm/storage"
 )
 
 func manifest(paths ...string) (manifestReader storage.LazySectionReader) {

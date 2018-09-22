@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/common/math"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/common/math"
 )
 
 // calculates the memory size required for a step

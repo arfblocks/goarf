@@ -29,8 +29,8 @@ import (
 
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/arfblocks/goarf/accounts"
-	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goArf/accounts"
+	"github.com/arfblocks/goArf/common"
 )
 
 var (

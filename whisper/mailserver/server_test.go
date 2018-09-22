@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/crypto"
-	whisper "github.com/arfblocks/goarf/whisper/whisperv6"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/crypto"
+	whisper "github.com/arfblocks/goArf/whisper/whisperv6"
 )
 
 const powRequirement = 0.00001

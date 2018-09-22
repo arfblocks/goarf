@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/arfblocks/goarf"
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goArf"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core/types"
 )
 
 var (

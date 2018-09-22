@@ -17,7 +17,7 @@
 package core
 
 import (
-	"github.com/arfblocks/goarf/consensus/arfist"
+	"github.com/arfblocks/goArf/consensus/arfist"
 )
 
 type backlogEvent struct {

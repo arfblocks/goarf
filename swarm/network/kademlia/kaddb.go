@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/log"
 )
 
 type NodeData interface {

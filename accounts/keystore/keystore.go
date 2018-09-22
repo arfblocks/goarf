@@ -33,11 +33,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arfblocks/goarf/accounts"
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/event"
+	"github.com/arfblocks/goArf/accounts"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/event"
 )
 
 var (

@@ -19,7 +19,7 @@ package core
 import (
 	"reflect"
 
-	"github.com/arfblocks/goarf/consensus/arfist"
+	"github.com/arfblocks/goArf/consensus/arfist"
 )
 
 func (c *core) sendPrepare() {

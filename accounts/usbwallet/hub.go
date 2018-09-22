@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arfblocks/goarf/accounts"
-	"github.com/arfblocks/goarf/event"
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/accounts"
+	"github.com/arfblocks/goArf/event"
+	"github.com/arfblocks/goArf/log"
 	"github.com/karalabe/hid"
 )
 

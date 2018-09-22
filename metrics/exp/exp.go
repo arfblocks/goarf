@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/arfblocks/goarf/metrics"
+	"github.com/arfblocks/goArf/metrics"
 )
 
 type exp struct {

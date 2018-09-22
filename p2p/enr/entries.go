@@ -22,8 +22,8 @@ import (
 	"io"
 	"net"
 
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/rlp"
 )
 
 // Entry is implemented by known node record entry types.

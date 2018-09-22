@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/swarm/storage"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/swarm/storage"
 )
 
 // syncer parameters (global, not peer specific) default values

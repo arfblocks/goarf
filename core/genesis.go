@@ -25,15 +25,15 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/common/hexutil"
-	"github.com/arfblocks/goarf/common/math"
-	"github.com/arfblocks/goarf/core/state"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/ethdb"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/params"
-	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/common/hexutil"
+	"github.com/arfblocks/goArf/common/math"
+	"github.com/arfblocks/goArf/core/state"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/ethdb"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/params"
+	"github.com/arfblocks/goArf/rlp"
 )
 
 //go:generate gencodec -type Genesis -field-override genesisSpecMarshaling -out gen_genesis.go

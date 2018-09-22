@@ -21,10 +21,10 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core/vm"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/params"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core/vm"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/params"
 )
 
 var (

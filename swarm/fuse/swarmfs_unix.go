@@ -29,9 +29,9 @@ import (
 
 	"bazil.org/fuse"
 	"bazil.org/fuse/fs"
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/swarm/api"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/swarm/api"
 )
 
 var (

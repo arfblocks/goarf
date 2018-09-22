@@ -28,10 +28,10 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/common/math"
-	"github.com/arfblocks/goarf/crypto/sha3"
-	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/common/math"
+	"github.com/arfblocks/goArf/crypto/sha3"
+	"github.com/arfblocks/goArf/rlp"
 )
 
 var (

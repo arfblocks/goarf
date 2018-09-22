@@ -20,17 +20,17 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/log"
 )
 
 /*
 http roundtripper to register for bzz url scheme
-see https://github.com/arfblocks/goarf/issues/2040
+see https://github.com/arfblocks/goArf/issues/2040
 Usage:
 
 import (
- "github.com/arfblocks/goarf/common/httpclient"
- "github.com/arfblocks/goarf/swarm/api/http"
+ "github.com/arfblocks/goArf/common/httpclient"
+ "github.com/arfblocks/goArf/swarm/api/http"
 )
 client := httpclient.New()
 // for (private) swarm proxy running locally

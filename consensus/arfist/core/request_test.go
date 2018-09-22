@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/consensus/arfist"
-	"github.com/arfblocks/goarf/event"
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/consensus/arfist"
+	"github.com/arfblocks/goArf/event"
+	"github.com/arfblocks/goArf/log"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

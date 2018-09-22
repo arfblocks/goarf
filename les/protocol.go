@@ -26,11 +26,11 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core"
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/crypto/secp256k1"
-	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/crypto/secp256k1"
+	"github.com/arfblocks/goArf/rlp"
 )
 
 // Constants to match up protocol versions and messages

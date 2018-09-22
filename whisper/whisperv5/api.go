@@ -24,12 +24,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/common/hexutil"
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/p2p/discover"
-	"github.com/arfblocks/goarf/rpc"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/common/hexutil"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/p2p/discover"
+	"github.com/arfblocks/goArf/rpc"
 )
 
 const (

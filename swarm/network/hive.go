@@ -22,13 +22,13 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/metrics"
-	"github.com/arfblocks/goarf/p2p/discover"
-	"github.com/arfblocks/goarf/p2p/netutil"
-	"github.com/arfblocks/goarf/swarm/network/kademlia"
-	"github.com/arfblocks/goarf/swarm/storage"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/metrics"
+	"github.com/arfblocks/goArf/p2p/discover"
+	"github.com/arfblocks/goArf/p2p/netutil"
+	"github.com/arfblocks/goArf/swarm/network/kademlia"
+	"github.com/arfblocks/goArf/swarm/storage"
 )
 
 // Hive is the logistic manager of the swarm

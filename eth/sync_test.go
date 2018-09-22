@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arfblocks/goarf/eth/downloader"
-	"github.com/arfblocks/goarf/p2p"
-	"github.com/arfblocks/goarf/p2p/discover"
+	"github.com/arfblocks/goArf/eth/downloader"
+	"github.com/arfblocks/goArf/p2p"
+	"github.com/arfblocks/goArf/p2p/discover"
 )
 
 // Tests that fast sync gets disabled as soon as a real block is successfully

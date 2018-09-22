@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/arfblocks/goarf/cmd/utils"
-	"github.com/arfblocks/goarf/swarm/storage"
+	"github.com/arfblocks/goArf/cmd/utils"
+	"github.com/arfblocks/goArf/swarm/storage"
 	"gopkg.in/urfave/cli.v1"
 )
 

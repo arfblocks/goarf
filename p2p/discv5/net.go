@@ -24,13 +24,13 @@ import (
 	"net"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/common/mclock"
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/crypto/sha3"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/p2p/netutil"
-	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/common/mclock"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/crypto/sha3"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/p2p/netutil"
+	"github.com/arfblocks/goArf/rlp"
 )
 
 var (

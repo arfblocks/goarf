@@ -21,7 +21,7 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goArf/crypto"
 )
 
 const (

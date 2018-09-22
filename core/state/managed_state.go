@@ -19,7 +19,7 @@ package state
 import (
 	"sync"
 
-	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goArf/common"
 )
 
 type account struct {

@@ -22,9 +22,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/arfblocks/goarf/cmd/utils"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/swarm/storage"
+	"github.com/arfblocks/goArf/cmd/utils"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/swarm/storage"
 	"gopkg.in/urfave/cli.v1"
 )
 

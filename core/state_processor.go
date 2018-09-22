@@ -17,14 +17,14 @@
 package core
 
 import (
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/consensus"
-	"github.com/arfblocks/goarf/consensus/misc"
-	"github.com/arfblocks/goarf/core/state"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/core/vm"
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/params"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/consensus"
+	"github.com/arfblocks/goArf/consensus/misc"
+	"github.com/arfblocks/goArf/core/state"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/core/vm"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/params"
 )
 
 // StateProcessor is a basic Processor, which takes care of transitioning

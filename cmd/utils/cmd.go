@@ -27,12 +27,12 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/arfblocks/goarf/core"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/internal/debug"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/node"
-	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goArf/core"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/internal/debug"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/node"
+	"github.com/arfblocks/goArf/rlp"
 )
 
 const (

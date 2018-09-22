@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/arfblocks/goarf/consensus/arfist"
+import "github.com/arfblocks/goArf/consensus/arfist"
 
 func (c *core) handleRequest(request *arfist.Request) error {
 	logger := c.logger.New("state", c.state, "seq", c.current.sequence)

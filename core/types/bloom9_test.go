@@ -54,7 +54,7 @@ func TestBloom(t *testing.T) {
 import (
 	"testing"
 
-	"github.com/arfblocks/goarf/core/state"
+	"github.com/arfblocks/goArf/core/state"
 )
 
 func TestBloom9(t *testing.T) {

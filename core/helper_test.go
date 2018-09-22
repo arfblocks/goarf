@@ -20,9 +20,9 @@ import (
 	"container/list"
 	"fmt"
 
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/ethdb"
-	"github.com/arfblocks/goarf/event"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/ethdb"
+	"github.com/arfblocks/goArf/event"
 )
 
 // Implement our EthTest Manager

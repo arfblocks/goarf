@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goArf/common"
 )
 
 func TestHexOrDecimal256(t *testing.T) {

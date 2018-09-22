@@ -22,8 +22,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core/types"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core/types"
 )
 
 // NotFound is returned by API methods if the requested item does not exist.

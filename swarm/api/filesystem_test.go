@@ -24,8 +24,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/swarm/storage"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/swarm/storage"
 )
 
 var testDownloadDir, _ = ioutil.TempDir(os.TempDir(), "bzz-test")

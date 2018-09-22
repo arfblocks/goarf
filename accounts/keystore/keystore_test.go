@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arfblocks/goarf/accounts"
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/event"
+	"github.com/arfblocks/goArf/accounts"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/event"
 )
 
 var testSigData = make([]byte, 32)

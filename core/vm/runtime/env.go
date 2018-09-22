@@ -17,9 +17,9 @@
 package runtime
 
 import (
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core"
-	"github.com/arfblocks/goarf/core/vm"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core"
+	"github.com/arfblocks/goArf/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

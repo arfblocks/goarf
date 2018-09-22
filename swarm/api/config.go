@@ -22,14 +22,14 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/contracts/ens"
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/node"
-	"github.com/arfblocks/goarf/swarm/network"
-	"github.com/arfblocks/goarf/swarm/services/swap"
-	"github.com/arfblocks/goarf/swarm/storage"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/contracts/ens"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/node"
+	"github.com/arfblocks/goArf/swarm/network"
+	"github.com/arfblocks/goArf/swarm/services/swap"
+	"github.com/arfblocks/goArf/swarm/storage"
 )
 
 const (

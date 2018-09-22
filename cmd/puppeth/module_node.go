@@ -26,8 +26,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/log"
 )
 
 // nodeDockerfile is the Dockerfile required to run an Ethereum node.

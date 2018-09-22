@@ -25,7 +25,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/arfblocks/goarf/ethdb"
+	"github.com/arfblocks/goArf/ethdb"
 )
 
 func newTestLDB() (*ethdb.LDBDatabase, func()) {

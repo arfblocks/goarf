@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/params"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/params"
 )
 
 type twoOperandTest struct {

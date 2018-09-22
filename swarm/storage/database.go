@@ -22,7 +22,7 @@ package storage
 import (
 	"fmt"
 
-	"github.com/arfblocks/goarf/compression/rle"
+	"github.com/arfblocks/goArf/compression/rle"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/iterator"
 	"github.com/syndtr/goleveldb/leveldb/opt"

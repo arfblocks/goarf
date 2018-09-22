@@ -21,9 +21,9 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/core/types"
-	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/core/types"
+	"github.com/arfblocks/goArf/rlp"
 )
 
 // Proposal supports retrieving height and serialized block to be used during ArfIst consensus.

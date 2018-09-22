@@ -26,13 +26,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/arfblocks/goarf/accounts"
-	"github.com/arfblocks/goarf/ethdb"
-	"github.com/arfblocks/goarf/event"
-	"github.com/arfblocks/goarf/internal/debug"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/p2p"
-	"github.com/arfblocks/goarf/rpc"
+	"github.com/arfblocks/goArf/accounts"
+	"github.com/arfblocks/goArf/ethdb"
+	"github.com/arfblocks/goArf/event"
+	"github.com/arfblocks/goArf/internal/debug"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/p2p"
+	"github.com/arfblocks/goArf/rpc"
 	"github.com/prometheus/prometheus/util/flock"
 )
 

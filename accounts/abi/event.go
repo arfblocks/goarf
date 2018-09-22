@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/crypto"
 )
 
 // Event is an event potentially triggered by the EVM's LOG mechanism. The Event

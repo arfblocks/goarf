@@ -22,10 +22,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/p2p"
-	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/p2p"
+	"github.com/arfblocks/goArf/rlp"
 	set "gopkg.in/fatih/set.v0"
 )
 

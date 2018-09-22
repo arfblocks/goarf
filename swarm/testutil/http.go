@@ -22,9 +22,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/arfblocks/goarf/swarm/api"
-	httpapi "github.com/arfblocks/goarf/swarm/api/http"
-	"github.com/arfblocks/goarf/swarm/storage"
+	"github.com/arfblocks/goArf/swarm/api"
+	httpapi "github.com/arfblocks/goArf/swarm/api/http"
+	"github.com/arfblocks/goArf/swarm/storage"
 )
 
 func NewTestSwarmServer(t *testing.T) *TestSwarmServer {

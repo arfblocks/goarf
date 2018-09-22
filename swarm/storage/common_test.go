@@ -24,7 +24,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/arfblocks/goarf/log"
+	"github.com/arfblocks/goArf/log"
 )
 
 type brokenLimitedReader struct {

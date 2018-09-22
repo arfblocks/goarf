@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/arfblocks/goarf/event"
+	"github.com/arfblocks/goArf/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

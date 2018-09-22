@@ -19,8 +19,8 @@ package core
 import (
 	"reflect"
 
-	"github.com/arfblocks/goarf/common"
-	"github.com/arfblocks/goarf/consensus/arfist"
+	"github.com/arfblocks/goArf/common"
+	"github.com/arfblocks/goArf/consensus/arfist"
 )
 
 func (c *core) sendCommit() {

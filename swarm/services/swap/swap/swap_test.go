@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arfblocks/goarf/common"
+	"github.com/arfblocks/goArf/common"
 )
 
 type testInPayment struct {

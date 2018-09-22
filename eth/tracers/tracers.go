@@ -21,7 +21,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/arfblocks/goarf/eth/tracers/internal/tracers"
+	"github.com/arfblocks/goArf/eth/tracers/internal/tracers"
 )
 
 // all contains all the built in JavaScript tracers by name.

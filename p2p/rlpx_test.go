@@ -31,11 +31,11 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/arfblocks/goarf/crypto"
-	"github.com/arfblocks/goarf/crypto/ecies"
-	"github.com/arfblocks/goarf/crypto/sha3"
-	"github.com/arfblocks/goarf/p2p/discover"
-	"github.com/arfblocks/goarf/rlp"
+	"github.com/arfblocks/goArf/crypto"
+	"github.com/arfblocks/goArf/crypto/ecies"
+	"github.com/arfblocks/goArf/crypto/sha3"
+	"github.com/arfblocks/goArf/p2p/discover"
+	"github.com/arfblocks/goArf/rlp"
 )
 
 func TestSharedSecret(t *testing.T) {

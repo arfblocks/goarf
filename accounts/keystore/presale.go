@@ -25,8 +25,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/arfblocks/goarf/accounts"
-	"github.com/arfblocks/goarf/crypto"
+	"github.com/arfblocks/goArf/accounts"
+	"github.com/arfblocks/goArf/crypto"
 	"github.com/pborman/uuid"
 	"golang.org/x/crypto/pbkdf2"
 )

@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/arfblocks/goarf/metrics"
+	"github.com/arfblocks/goArf/metrics"
 )
 
 var (

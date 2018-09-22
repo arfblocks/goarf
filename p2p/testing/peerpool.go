@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/arfblocks/goarf/log"
-	"github.com/arfblocks/goarf/p2p/discover"
+	"github.com/arfblocks/goArf/log"
+	"github.com/arfblocks/goArf/p2p/discover"
 )
 
 type TestPeer interface {
